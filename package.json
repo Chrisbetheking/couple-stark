@@ -1,0 +1,24 @@
+{
+  "name": "couple-spark",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A local-only bilingual offline couple game PWA with wheel, cards, dice, boundaries, timer and custom decks.",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 5173",
+    "dev:vite": "vite --host 0.0.0.0",
+    "check": "node --check src/main.js && node --check src/data.js && node --check src/i18n.js"
+  },
+  "keywords": [
+    "couple-game",
+    "pwa",
+    "local-first",
+    "bilingual",
+    "wheel",
+    "truth-or-dare"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}

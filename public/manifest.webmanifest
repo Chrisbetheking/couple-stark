@@ -1,0 +1,13 @@
+{
+  "name": "二人火花 · Couple Spark",
+  "short_name": "二人火花",
+  "description": "情侣线下互动游戏 PWA，全本地、可自定义、中英双语。",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#421044",
+  "theme_color": "#ff4f91",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
