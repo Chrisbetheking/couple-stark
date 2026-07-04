@@ -1,29 +1,35 @@
-// Rebuilt richer content pack for Couple Spark. Adult consenting couples only.
+// Couple Spark Pro v3 content pack. Adult consenting couples only.
 
 export const SCENES = [
   {
-    "id": "warmup",
-    "icon": "✨",
+    "id": "script",
+    "icon": "🌙",
     "accent": "peach",
     "types": [
       "truth",
-      "care",
+      "dare",
       "kiss",
-      "dare"
+      "touch",
+      "role",
+      "prop",
+      "aftercare"
     ],
     "levels": [
       1,
-      2
+      2,
+      3,
+      4,
+      5
     ],
     "zh": {
-      "title": "升温开场",
-      "subtitle": "先把氛围、眼神、触碰拉起来",
-      "button": "开始热身"
+      "title": "今晚剧本",
+      "subtitle": "从破冰、升温到放开玩，按节奏推进，不再只靠随机。",
+      "button": "开始今晚"
     },
     "en": {
-      "title": "Warm Start",
-      "subtitle": "Build mood, eye contact and touch",
-      "button": "Warm up"
+      "title": "Tonight Script",
+      "subtitle": "A paced flow from warm-up to heat and aftercare.",
+      "button": "Start tonight"
     }
   },
   {
@@ -41,40 +47,14 @@ export const SCENES = [
       5
     ],
     "zh": {
-      "title": "真心话升级",
-      "subtitle": "从暧昧到更直白，问题更多更会撩",
-      "button": "抽问题"
+      "title": "真心话上头局",
+      "subtitle": "不聊废话，直接问欲望、偏好、幻想和底线。",
+      "button": "抽一个问题"
     },
     "en": {
-      "title": "Truth Upgrade",
-      "subtitle": "From flirty to very direct",
+      "title": "Truth Heat",
+      "subtitle": "Desire, preference, fantasy and boundaries.",
       "button": "Draw truth"
-    }
-  },
-  {
-    "id": "lead",
-    "icon": "🫴",
-    "accent": "sky",
-    "types": [
-      "care",
-      "listen",
-      "dare"
-    ],
-    "levels": [
-      1,
-      2,
-      3,
-      4
-    ],
-    "zh": {
-      "title": "听话模式",
-      "subtitle": "一方发号施令，一方只负责反馈和配合",
-      "button": "进入角色"
-    },
-    "en": {
-      "title": "Lead & Follow",
-      "subtitle": "One leads, one responds and follows",
-      "button": "Play roles"
     }
   },
   {
@@ -84,8 +64,7 @@ export const SCENES = [
     "types": [
       "kiss",
       "touch",
-      "dare",
-      "listen"
+      "dare"
     ],
     "levels": [
       2,
@@ -95,63 +74,39 @@ export const SCENES = [
     ],
     "zh": {
       "title": "撩拨拉扯",
-      "subtitle": "靠近、暂停、再靠近，张力更足",
-      "button": "开始拉扯"
+      "subtitle": "靠近、暂停、挑逗、加码，让期待感先起来。",
+      "button": "开始撩"
     },
     "en": {
-      "title": "Tease & Pause",
-      "subtitle": "Approach, stop, and build tension",
-      "button": "Tease"
+      "title": "Tease Game",
+      "subtitle": "Close, pause, tease, escalate.",
+      "button": "Start tease"
     }
   },
   {
-    "id": "dice",
-    "icon": "🎲",
-    "accent": "gold",
+    "id": "dirty",
+    "icon": "💋",
+    "accent": "hot",
     "types": [
-      "dice"
+      "dare",
+      "touch",
+      "kiss",
+      "dirty"
     ],
     "levels": [
-      1,
-      2,
       3,
       4,
       5
     ],
     "zh": {
-      "title": "暧昧骰子 Pro",
-      "subtitle": "动作、位置、时长三段随机，有动画反馈",
-      "button": "掷骰子"
+      "title": "别装了",
+      "subtitle": "更直白、更成人、更贴身，只给已经确认过边界的情侣。",
+      "button": "抽热辣任务"
     },
     "en": {
-      "title": "Spicy Dice Pro",
-      "subtitle": "Action, place and time with feedback",
-      "button": "Roll dice"
-    }
-  },
-  {
-    "id": "wheel",
-    "icon": "🎡",
-    "accent": "magenta",
-    "types": [
-      "wheel"
-    ],
-    "levels": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "zh": {
-      "title": "热辣转盘 Pro",
-      "subtitle": "内置 6 套转盘，选项更多更大胆",
-      "button": "去转盘"
-    },
-    "en": {
-      "title": "Hot Wheel Pro",
-      "subtitle": "6 richer wheel decks",
-      "button": "Spin wheel"
+      "title": "No Pretending",
+      "subtitle": "Direct adult prompts for agreed boundaries.",
+      "button": "Draw hot task"
     }
   },
   {
@@ -160,8 +115,8 @@ export const SCENES = [
     "accent": "indigo",
     "types": [
       "role",
-      "dare",
-      "truth"
+      "truth",
+      "dare"
     ],
     "levels": [
       2,
@@ -171,12 +126,12 @@ export const SCENES = [
     ],
     "zh": {
       "title": "角色扮演",
-      "subtitle": "指令、身份、台词、限时任务",
+      "subtitle": "身份、台词、命令和限制，重点是入戏。",
       "button": "抽角色"
     },
     "en": {
       "title": "Role Play",
-      "subtitle": "Roles, lines and timed tasks",
+      "subtitle": "Roles, lines, commands and limits.",
       "button": "Draw role"
     }
   },
@@ -196,13 +151,13 @@ export const SCENES = [
       5
     ],
     "zh": {
-      "title": "道具升温",
-      "subtitle": "眼罩、冰块、镜子、丝巾、氛围灯",
-      "button": "抽道具"
+      "title": "道具局",
+      "subtitle": "眼罩、冰块、丝巾、镜子、口红、氛围灯。",
+      "button": "抽道具任务"
     },
     "en": {
-      "title": "Prop Heat",
-      "subtitle": "Blindfold, ice, mirror, scarf and more",
+      "title": "Prop Night",
+      "subtitle": "Blindfold, ice, scarf, mirror, lipstick and lights.",
       "button": "Draw prop"
     }
   },
@@ -211,7 +166,9 @@ export const SCENES = [
     "icon": "🛋️",
     "accent": "plum",
     "types": [
-      "pose"
+      "pose",
+      "dare",
+      "touch"
     ],
     "levels": [
       2,
@@ -220,80 +177,19 @@ export const SCENES = [
       5
     ],
     "zh": {
-      "title": "姿势卡",
-      "subtitle": "不靠露骨图，用文字把互动做得高级",
+      "title": "姿势挑战",
+      "subtitle": "沙发、床边、镜前、膝上、背后抱，换个角度就不一样。",
       "button": "抽姿势"
     },
     "en": {
-      "title": "Pose Cards",
-      "subtitle": "Text-first intimate positions",
+      "title": "Pose Challenge",
+      "subtitle": "Sofa, bedside, mirror, lap and back-hug positions.",
       "button": "Draw pose"
     }
   },
   {
-    "id": "heat",
-    "icon": "❤️‍🔥",
-    "accent": "hot",
-    "types": [
-      "truth",
-      "kiss",
-      "touch",
-      "dare",
-      "prop",
-      "pose",
-      "role"
-    ],
-    "levels": [
-      3,
-      4,
-      5
-    ],
-    "zh": {
-      "title": "成人热辣局",
-      "subtitle": "更开放、更直白，但必须双方 Yes",
-      "button": "进入热辣局"
-    },
-    "en": {
-      "title": "Adult Hot Round",
-      "subtitle": "Bolder and direct, mutual Yes only",
-      "button": "Go hot"
-    }
-  },
-  {
-    "id": "random",
-    "icon": "🔀",
-    "accent": "rainbow",
-    "types": [
-      "truth",
-      "kiss",
-      "touch",
-      "dare",
-      "care",
-      "prop",
-      "pose",
-      "role"
-    ],
-    "levels": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
-    "zh": {
-      "title": "随机渐进",
-      "subtitle": "自动混合所有内容，从轻到重不无聊",
-      "button": "随机探索"
-    },
-    "en": {
-      "title": "Progressive Mix",
-      "subtitle": "A richer ramp from soft to hot",
-      "button": "Explore"
-    }
-  },
-  {
     "id": "aftercare",
-    "icon": "🌙",
+    "icon": "🫧",
     "accent": "mint",
     "types": [
       "aftercare",
@@ -301,57 +197,130 @@ export const SCENES = [
     ],
     "levels": [
       1,
-      2,
-      3
+      2
     ],
     "zh": {
-      "title": "抱抱收尾",
-      "subtitle": "降温、复盘、补水，把体验收好",
-      "button": "温柔收尾"
+      "title": "余韵收尾",
+      "subtitle": "抱抱、补水、复盘、夸奖，把今晚舒服地收住。",
+      "button": "抽收尾"
     },
     "en": {
       "title": "Aftercare",
-      "subtitle": "Cool down, check in and close softly",
-      "button": "Wind down"
+      "subtitle": "Cuddle, hydrate, check in and close softly.",
+      "button": "Draw aftercare"
+    }
+  },
+  {
+    "id": "wheel",
+    "icon": "🎡",
+    "accent": "magenta",
+    "types": [
+      "wheel"
+    ],
+    "levels": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "zh": {
+      "title": "欲望转盘",
+      "subtitle": "重做转盘：中文模式名、真实惯性、结果弹窗、接受/换一个/加码。",
+      "button": "去转盘"
+    },
+    "en": {
+      "title": "Desire Wheel",
+      "subtitle": "Deck names, real inertia, result modal and escalation.",
+      "button": "Open wheel"
+    }
+  },
+  {
+    "id": "dice",
+    "icon": "🎲",
+    "accent": "gold",
+    "types": [
+      "dice"
+    ],
+    "levels": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "zh": {
+      "title": "暧昧骰子",
+      "subtitle": "动作、位置、时长、语气四段随机，尺度随等级变化。",
+      "button": "掷骰子"
+    },
+    "en": {
+      "title": "Spicy Dice",
+      "subtitle": "Action, area, time and tone based on heat level.",
+      "button": "Roll dice"
     }
   }
 ];
 
 export const TOOLS = [
   {
+    "id": "wheel",
+    "icon": "🎡",
+    "zh": {
+      "title": "欲望转盘",
+      "subtitle": "更成人的预设与结果反馈"
+    },
+    "en": {
+      "title": "Desire Wheel",
+      "subtitle": "Adult decks and result feedback"
+    }
+  },
+  {
+    "id": "dice",
+    "icon": "🎲",
+    "zh": {
+      "title": "暧昧骰子",
+      "subtitle": "四段随机，马上执行"
+    },
+    "en": {
+      "title": "Spicy Dice",
+      "subtitle": "Four-part random task"
+    }
+  },
+  {
     "id": "boundary",
     "icon": "✅",
     "zh": {
       "title": "边界清单",
-      "subtitle": "Yes / Maybe / No 双人匹配"
+      "subtitle": "先确定哪些能玩，哪些不碰"
     },
     "en": {
-      "title": "Boundary Match",
-      "subtitle": "Yes / Maybe / No for both"
+      "title": "Boundaries",
+      "subtitle": "Choose what is okay tonight"
     }
   },
   {
     "id": "propsTool",
-    "icon": "🧰",
+    "icon": "🧊",
     "zh": {
-      "title": "道具选择",
-      "subtitle": "今晚准备清单 + 抽卡偏好"
+      "title": "今晚道具",
+      "subtitle": "勾选准备好的东西"
     },
     "en": {
-      "title": "Prop Picker",
-      "subtitle": "Prepare and bias prompts"
+      "title": "Tonight Props",
+      "subtitle": "Select what is ready"
     }
   },
   {
     "id": "timer",
-    "icon": "⏱️",
+    "icon": "⏱",
     "zh": {
-      "title": "爱计时",
-      "subtitle": "亲吻、暂停、按摩、抱抱都能计时"
+      "title": "心跳计时",
+      "subtitle": "亲吻、拉扯、任务倒计时"
     },
     "en": {
-      "title": "Intimacy Timer",
-      "subtitle": "Time kisses, pauses and care"
+      "title": "Heat Timer",
+      "subtitle": "Timers for kisses and dares"
     }
   },
   {
@@ -359,2849 +328,3045 @@ export const TOOLS = [
     "icon": "🧪",
     "zh": {
       "title": "内容实验室",
-      "subtitle": "新增、导入、导出自定义题库"
+      "subtitle": "写你们自己的玩法"
     },
     "en": {
       "title": "Content Lab",
-      "subtitle": "Add, import and export prompts"
+      "subtitle": "Add private prompts"
     }
   },
   {
     "id": "settings",
     "icon": "⚙️",
     "zh": {
-      "title": "设置",
-      "subtitle": "语言、备份、重置与隐私"
+      "title": "设置/备份",
+      "subtitle": "语言、本地备份、清空数据"
     },
     "en": {
       "title": "Settings",
-      "subtitle": "Language, backup, reset and privacy"
+      "subtitle": "Language, backup, reset"
     }
   }
 ];
 
 export const PROPS = [
   {
-    "id": "water",
-    "level": 1,
-    "zh": "水和纸巾",
-    "en": "Water and tissues"
+    "id": "blindfold",
+    "level": 2,
+    "zh": "眼罩",
+    "en": "blindfold"
   },
   {
-    "id": "playlist",
-    "level": 1,
-    "zh": "音乐播放列表",
-    "en": "Playlist"
+    "id": "scarf",
+    "level": 3,
+    "zh": "丝巾 / 领带",
+    "en": "scarf / tie"
   },
   {
-    "id": "lamp",
-    "level": 1,
-    "zh": "氛围灯/小夜灯",
-    "en": "Mood light"
-  },
-  {
-    "id": "blanket",
-    "level": 1,
-    "zh": "毯子",
-    "en": "Blanket"
-  },
-  {
-    "id": "snacks",
-    "level": 1,
-    "zh": "水果/小零食",
-    "en": "Fruit or snacks"
-  },
-  {
-    "id": "timer",
-    "level": 1,
-    "zh": "计时器",
-    "en": "Timer"
-  },
-  {
-    "id": "pillow",
-    "level": 1,
-    "zh": "靠枕/抱枕",
-    "en": "Pillows"
-  },
-  {
-    "id": "mint",
-    "level": 1,
-    "zh": "薄荷糖/口气喷雾",
-    "en": "Mints"
+    "id": "ice",
+    "level": 3,
+    "zh": "冰块",
+    "en": "ice"
   },
   {
     "id": "mirror",
     "level": 2,
     "zh": "镜子",
-    "en": "Mirror"
+    "en": "mirror"
   },
   {
-    "id": "blindfold",
-    "level": 2,
-    "zh": "眼罩",
-    "en": "Blindfold"
-  },
-  {
-    "id": "ice",
-    "level": 2,
-    "zh": "冰块",
-    "en": "Ice"
-  },
-  {
-    "id": "scarf",
-    "level": 2,
-    "zh": "丝巾",
-    "en": "Silk scarf"
-  },
-  {
-    "id": "feather",
-    "level": 2,
-    "zh": "羽毛/软刷",
-    "en": "Feather or soft brush"
-  },
-  {
-    "id": "massage-oil",
-    "level": 2,
-    "zh": "按摩油/润肤乳",
-    "en": "Massage oil or lotion"
-  },
-  {
-    "id": "robe",
-    "level": 2,
-    "zh": "浴袍/衬衫",
-    "en": "Robe or shirt"
-  },
-  {
-    "id": "candle",
-    "level": 2,
-    "zh": "低温氛围蜡烛",
-    "en": "Low-temp mood candle"
-  },
-  {
-    "id": "cards",
-    "level": 2,
-    "zh": "纸笔/便利贴",
-    "en": "Paper and notes"
-  },
-  {
-    "id": "shower",
-    "level": 2,
-    "zh": "热水/沐浴用品",
-    "en": "Warm shower supplies"
-  },
-  {
-    "id": "camera-local",
+    "id": "lipstick",
     "level": 3,
-    "zh": "只本地保存的相机",
-    "en": "Local-only camera"
+    "zh": "口红",
+    "en": "lipstick"
   },
   {
-    "id": "toy",
-    "level": 3,
-    "zh": "双方认可的小玩具",
-    "en": "Mutually approved toy"
+    "id": "oil",
+    "level": 2,
+    "zh": "身体乳 / 按摩油",
+    "en": "lotion / massage oil"
   },
   {
-    "id": "lubricant",
-    "level": 3,
-    "zh": "润滑剂",
-    "en": "Lubricant"
+    "id": "shirt",
+    "level": 2,
+    "zh": "衬衫 / 浴袍",
+    "en": "shirt / robe"
   },
   {
-    "id": "condoms",
-    "level": 3,
-    "zh": "安全套/保护用品",
-    "en": "Condoms or protection"
+    "id": "music",
+    "level": 1,
+    "zh": "暧昧歌单",
+    "en": "mood playlist"
+  },
+  {
+    "id": "light",
+    "level": 1,
+    "zh": "氛围灯",
+    "en": "mood light"
+  },
+  {
+    "id": "paper",
+    "level": 2,
+    "zh": "纸条命令",
+    "en": "paper commands"
+  },
+  {
+    "id": "pillow",
+    "level": 2,
+    "zh": "靠枕 / 沙发",
+    "en": "pillow / sofa"
   },
   {
     "id": "towel",
     "level": 1,
-    "zh": "毛巾",
-    "en": "Towel"
+    "zh": "毛巾和水",
+    "en": "towel and water"
   },
   {
-    "id": "cleaner",
-    "level": 2,
-    "zh": "清洁用品",
-    "en": "Clean-up supplies"
+    "id": "toy",
+    "level": 5,
+    "zh": "双方都确认过的小玩具",
+    "en": "mutually agreed toy"
   },
   {
-    "id": "speaker",
+    "id": "protection",
     "level": 1,
-    "zh": "小音箱",
-    "en": "Speaker"
+    "zh": "保护用品",
+    "en": "protection"
   },
   {
-    "id": "dice-real",
+    "id": "camera_off",
     "level": 1,
-    "zh": "实体骰子",
-    "en": "Real dice"
-  },
-  {
-    "id": "perfume",
-    "level": 2,
-    "zh": "香水/身体乳",
-    "en": "Perfume or body lotion"
-  },
-  {
-    "id": "hairband",
-    "level": 1,
-    "zh": "发圈",
-    "en": "Hair tie"
-  },
-  {
-    "id": "icewater",
-    "level": 2,
-    "zh": "冷水杯",
-    "en": "Cold water"
-  },
-  {
-    "id": "notebook",
-    "level": 1,
-    "zh": "愿望清单本",
-    "en": "Wish notebook"
+    "zh": "手机放远 / 不拍摄",
+    "en": "phones away / no recording"
   }
 ];
 
 export const BOUNDARY_ITEMS = [
   {
-    "id": "safe-word",
+    "id": "deep-kiss",
     "level": 1,
-    "zh": "安全词 / 暂停手势",
-    "en": "Safeword / pause signal"
+    "zh": "深吻 / 长时间亲吻",
+    "en": "deep kissing"
   },
   {
-    "id": "no-phone",
-    "level": 1,
-    "zh": "全程不拍照",
-    "en": "No photos"
-  },
-  {
-    "id": "deep-kissing",
-    "level": 1,
-    "zh": "深吻",
-    "en": "Deep kissing"
-  },
-  {
-    "id": "neck-kiss",
-    "level": 1,
-    "zh": "脖颈亲吻",
-    "en": "Neck kisses"
-  },
-  {
-    "id": "massage",
-    "level": 1,
-    "zh": "肩颈 / 背部按摩",
-    "en": "Neck or back massage"
-  },
-  {
-    "id": "compliments",
-    "level": 1,
-    "zh": "直白夸奖",
-    "en": "Direct compliments"
-  },
-  {
-    "id": "eye-contact",
-    "level": 1,
-    "zh": "长时间对视",
-    "en": "Long eye contact"
-  },
-  {
-    "id": "lap-sit",
+    "id": "neck",
     "level": 2,
-    "zh": "坐腿 / 贴近拥抱",
-    "en": "Sitting close / lap cuddle"
+    "zh": "脖颈 / 锁骨亲吻",
+    "en": "neck / collarbone kisses"
   },
   {
-    "id": "voice",
+    "id": "lap",
     "level": 2,
-    "zh": "耳边指令 / 低声说话",
-    "en": "Whispered directions"
+    "zh": "坐腿 / 膝上拥抱",
+    "en": "lap sitting / lap cuddle"
   },
   {
-    "id": "role-lead",
+    "id": "over-clothes",
     "level": 2,
-    "zh": "一方温柔指挥",
-    "en": "One partner gently leads"
+    "zh": "隔着衣物触碰",
+    "en": "touching over clothes"
+  },
+  {
+    "id": "under-clothes",
+    "level": 4,
+    "zh": "衣物内触碰",
+    "en": "touching under clothes"
+  },
+  {
+    "id": "chest",
+    "level": 4,
+    "zh": "胸口 / 胸部相关玩法",
+    "en": "chest / breast play"
+  },
+  {
+    "id": "butt",
+    "level": 4,
+    "zh": "臀部相关玩法",
+    "en": "butt play"
+  },
+  {
+    "id": "inner-thigh",
+    "level": 4,
+    "zh": "大腿内侧",
+    "en": "inner thigh"
+  },
+  {
+    "id": "oral-talk",
+    "level": 5,
+    "zh": "口头说出更露骨的愿望",
+    "en": "explicit verbal wishes"
+  },
+  {
+    "id": "dirty-talk",
+    "level": 4,
+    "zh": "脏话 / 命令式情话",
+    "en": "dirty talk / commands"
+  },
+  {
+    "id": "roleplay",
+    "level": 3,
+    "zh": "角色扮演",
+    "en": "role play"
   },
   {
     "id": "blindfold",
-    "level": 2,
+    "level": 3,
     "zh": "眼罩",
-    "en": "Blindfold"
+    "en": "blindfold"
   },
   {
-    "id": "ice-play",
-    "level": 2,
-    "zh": "冰块触碰",
-    "en": "Ice touch"
+    "id": "restraint-soft",
+    "level": 4,
+    "zh": "轻度限制手腕 / 姿势限制",
+    "en": "soft wrist / position restraint"
+  },
+  {
+    "id": "ice",
+    "level": 3,
+    "zh": "冰块 / 冷热刺激",
+    "en": "ice / temperature play"
   },
   {
     "id": "mirror",
-    "level": 2,
-    "zh": "镜前互动",
-    "en": "Mirror play"
-  },
-  {
-    "id": "scarf",
-    "level": 2,
-    "zh": "丝巾触碰",
-    "en": "Silk scarf touch"
-  },
-  {
-    "id": "clothes-layer",
-    "level": 2,
-    "zh": "脱一件外层衣物",
-    "en": "Remove one outer layer"
-  },
-  {
-    "id": "dirty-talk-lite",
-    "level": 2,
-    "zh": "暧昧台词",
-    "en": "Flirty lines"
-  },
-  {
-    "id": "light-restraint",
     "level": 3,
-    "zh": "轻度限制动作",
-    "en": "Light restraint"
+    "zh": "镜前任务",
+    "en": "mirror tasks"
   },
   {
-    "id": "hot-talk",
+    "id": "props",
     "level": 3,
-    "zh": "更直接的成人情话",
-    "en": "More direct adult talk"
+    "zh": "道具加入",
+    "en": "props"
   },
   {
-    "id": "photos-local",
-    "level": 3,
-    "zh": "私密照片只本地保存",
-    "en": "Private photos kept local"
+    "id": "toy",
+    "level": 5,
+    "zh": "小玩具加入",
+    "en": "toy use"
   },
   {
-    "id": "toys",
-    "level": 3,
-    "zh": "双方认可的小玩具",
-    "en": "Mutually approved toys"
-  },
-  {
-    "id": "shower",
-    "level": 3,
-    "zh": "一起洗澡 / 浴室互动",
-    "en": "Shower intimacy"
-  },
-  {
-    "id": "command-game",
-    "level": 3,
-    "zh": "命令与服从感",
-    "en": "Command and follow play"
-  },
-  {
-    "id": "tease-pause",
-    "level": 3,
-    "zh": "靠近后暂停",
-    "en": "Tease then pause"
-  },
-  {
-    "id": "marking",
-    "level": 3,
-    "zh": "可见位置以外的轻吻痕",
-    "en": "Private kiss marks"
-  },
-  {
-    "id": "adult-maybe",
+    "id": "marks",
     "level": 4,
-    "zh": "成人幻想讨论",
-    "en": "Adult fantasy talk"
+    "zh": "允许轻微痕迹",
+    "en": "light marks"
   },
   {
-    "id": "edging",
-    "level": 4,
-    "zh": "接近高潮后暂停",
-    "en": "Tease close, then pause"
+    "id": "no-media",
+    "level": 1,
+    "zh": "不拍照、不录像、不录音",
+    "en": "no photos, video, or audio"
   },
   {
-    "id": "oral",
-    "level": 4,
-    "zh": "口欲互动",
-    "en": "Oral intimacy"
-  },
-  {
-    "id": "penetration",
-    "level": 4,
-    "zh": "进入式亲密",
-    "en": "Penetrative intimacy"
-  },
-  {
-    "id": "toy-use",
-    "level": 4,
-    "zh": "玩具实际使用",
-    "en": "Toy use"
-  },
-  {
-    "id": "rougher-tone",
-    "level": 4,
-    "zh": "更强势的语气",
-    "en": "More dominant tone"
-  },
-  {
-    "id": "record-audio",
-    "level": 4,
-    "zh": "只本地保存的声音",
-    "en": "Local-only audio"
-  },
-  {
-    "id": "switch-role",
-    "level": 3,
-    "zh": "中途交换主导权",
-    "en": "Switch lead mid-round"
+    "id": "safe-word",
+    "level": 1,
+    "zh": "安全词一出立刻停止",
+    "en": "safeword means immediate stop"
   },
   {
     "id": "aftercare",
     "level": 1,
-    "zh": "结束后的拥抱 / 复盘",
-    "en": "Aftercare and check-in"
+    "zh": "结束后必须抱抱和复盘",
+    "en": "aftercare required"
   },
   {
-    "id": "water-break",
+    "id": "protection",
     "level": 1,
-    "zh": "中途补水休息",
-    "en": "Water break"
+    "zh": "涉及性行为前确认保护用品",
+    "en": "confirm protection before sex"
   },
   {
-    "id": "no-marks",
+    "id": "no-pain",
     "level": 1,
-    "zh": "不留下痕迹",
-    "en": "No marks"
+    "zh": "不做疼痛、伤害、危险动作",
+    "en": "no pain, injury, or risky actions"
   },
   {
-    "id": "no-restraint",
+    "id": "stop-anytime",
     "level": 1,
-    "zh": "不限制动作",
-    "en": "No restraint"
-  },
-  {
-    "id": "no-toys",
-    "level": 1,
-    "zh": "不用玩具",
-    "en": "No toys"
-  },
-  {
-    "id": "no-photos-ever",
-    "level": 1,
-    "zh": "不拍任何私密内容",
-    "en": "No private media"
-  },
-  {
-    "id": "stop-on-laugh",
-    "level": 1,
-    "zh": "笑场就暂停",
-    "en": "Pause if someone laughs"
-  },
-  {
-    "id": "checkin-5min",
-    "level": 1,
-    "zh": "每 5 分钟确认一次舒适度",
-    "en": "Check comfort every 5 minutes"
+    "zh": "任何一方都能随时换题 / 降级",
+    "en": "either can switch or soften anytime"
   }
 ];
 
 export const DICE = {
   "actions": [
-    {
-      "zh": "亲吻",
-      "en": "kiss"
-    },
-    {
-      "zh": "轻咬",
-      "en": "nibble"
-    },
-    {
-      "zh": "慢慢触碰",
-      "en": "slowly touch"
-    },
-    {
-      "zh": "按摩",
-      "en": "massage"
-    },
-    {
-      "zh": "用气息靠近",
-      "en": "breathe near"
-    },
-    {
-      "zh": "耳边说一句指令",
-      "en": "whisper a command"
-    },
-    {
-      "zh": "只看不碰",
-      "en": "look, no touch"
-    },
-    {
-      "zh": "用唇画路线",
-      "en": "trace with lips"
-    },
-    {
-      "zh": "隔着衣物触碰",
-      "en": "touch over clothing"
-    },
-    {
-      "zh": "用指尖点三下",
-      "en": "tap three times"
-    },
-    {
-      "zh": "停住不动",
-      "en": "freeze"
-    },
-    {
-      "zh": "夸到脸红",
-      "en": "praise until they blush"
-    },
-    {
-      "zh": "贴近 5 秒再退开",
-      "en": "move close then pull away"
-    },
-    {
-      "zh": "让对方指挥",
-      "en": "let partner lead"
-    },
-    {
-      "zh": "闭眼感受",
-      "en": "close eyes and feel"
-    },
-    {
-      "zh": "倒数后亲吻",
-      "en": "count down then kiss"
-    },
-    {
-      "zh": "轻轻抓住手腕",
-      "en": "gently hold wrist"
-    },
-    {
-      "zh": "慢慢解开一个外层扣子",
-      "en": "slowly undo one outer button"
-    },
-    {
-      "zh": "换一个姿势拥抱",
-      "en": "hug in a new position"
-    },
-    {
-      "zh": "说一句更大胆的愿望",
-      "en": "say a bolder wish"
-    }
+    [
+      1,
+      "对视后亲一下",
+      "kiss after eye contact"
+    ],
+    [
+      1,
+      "抱紧不说话",
+      "hold tight silently"
+    ],
+    [
+      2,
+      "贴耳说一句想法",
+      "whisper a thought"
+    ],
+    [
+      2,
+      "慢慢亲吻",
+      "kiss slowly"
+    ],
+    [
+      2,
+      "隔着衣物摸一下",
+      "touch over clothes"
+    ],
+    [
+      3,
+      "用唇慢慢探索",
+      "explore slowly with lips"
+    ],
+    [
+      3,
+      "轻咬一下再亲回去",
+      "gentle nibble then kiss"
+    ],
+    [
+      3,
+      "让对方指挥你",
+      "let partner command you"
+    ],
+    [
+      4,
+      "挑逗到对方开口要继续",
+      "tease until they ask for more"
+    ],
+    [
+      4,
+      "衣物内停留一下",
+      "pause under clothing"
+    ],
+    [
+      4,
+      "说一句下流但好听的话",
+      "say one dirty sweet line"
+    ],
+    [
+      5,
+      "只做双方 Yes 的私密玩法",
+      "mutual-Yes intimate play"
+    ],
+    [
+      5,
+      "由对方指定更大胆动作",
+      "partner chooses a bolder action"
+    ],
+    [
+      5,
+      "把主动权交给对方 3 分钟",
+      "give partner control for 3 minutes"
+    ]
   ],
   "areas": [
-    {
-      "zh": "手心",
-      "en": "palm"
-    },
-    {
-      "zh": "手腕",
-      "en": "wrist"
-    },
-    {
-      "zh": "手臂内侧",
-      "en": "inner arm"
-    },
-    {
-      "zh": "肩颈",
-      "en": "neck and shoulders"
-    },
-    {
-      "zh": "耳边",
-      "en": "ear"
-    },
-    {
-      "zh": "锁骨附近",
-      "en": "collarbone area"
-    },
-    {
-      "zh": "后背",
-      "en": "back"
-    },
-    {
-      "zh": "腰侧",
-      "en": "waist"
-    },
-    {
-      "zh": "腹侧",
-      "en": "side of belly"
-    },
-    {
-      "zh": "大腿外侧",
-      "en": "outer thigh"
-    },
-    {
-      "zh": "膝盖后侧",
-      "en": "back of knee"
-    },
-    {
-      "zh": "脚踝",
-      "en": "ankle"
-    },
-    {
-      "zh": "额头",
-      "en": "forehead"
-    },
-    {
-      "zh": "脸颊",
-      "en": "cheek"
-    },
-    {
-      "zh": "嘴角",
-      "en": "corner of mouth"
-    },
-    {
-      "zh": "镜子前",
-      "en": "in front of mirror"
-    },
-    {
-      "zh": "双方 Yes 的敏感处",
-      "en": "mutually Yes sensitive spot"
-    },
-    {
-      "zh": "由对方指定的位置",
-      "en": "partner-chosen area"
-    }
+    [
+      1,
+      "手心",
+      "palm"
+    ],
+    [
+      1,
+      "脸颊",
+      "cheek"
+    ],
+    [
+      1,
+      "额头",
+      "forehead"
+    ],
+    [
+      2,
+      "耳边",
+      "ear"
+    ],
+    [
+      2,
+      "后颈",
+      "back of neck"
+    ],
+    [
+      2,
+      "锁骨",
+      "collarbone"
+    ],
+    [
+      2,
+      "腰侧",
+      "waist"
+    ],
+    [
+      3,
+      "嘴角",
+      "corner of mouth"
+    ],
+    [
+      3,
+      "背部",
+      "back"
+    ],
+    [
+      3,
+      "大腿外侧",
+      "outer thigh"
+    ],
+    [
+      4,
+      "大腿内侧",
+      "inner thigh"
+    ],
+    [
+      4,
+      "胸口附近",
+      "around the chest"
+    ],
+    [
+      4,
+      "臀部附近",
+      "around the butt"
+    ],
+    [
+      5,
+      "双方都点 Yes 的敏感处",
+      "mutual-Yes sensitive spot"
+    ],
+    [
+      5,
+      "对方指定的位置",
+      "partner-chosen spot"
+    ]
+  ],
+  "tones": [
+    [
+      1,
+      "温柔一点",
+      "softly"
+    ],
+    [
+      1,
+      "慢一点",
+      "slowly"
+    ],
+    [
+      2,
+      "靠近一点",
+      "closer"
+    ],
+    [
+      2,
+      "坏一点",
+      "naughtier"
+    ],
+    [
+      3,
+      "带点命令感",
+      "with a commanding tone"
+    ],
+    [
+      3,
+      "只准小声说",
+      "in a low voice only"
+    ],
+    [
+      4,
+      "不许敷衍",
+      "no half-effort"
+    ],
+    [
+      4,
+      "要让对方脸红",
+      "make them blush"
+    ],
+    [
+      5,
+      "直接一点",
+      "be direct"
+    ],
+    [
+      5,
+      "放开一点",
+      "let go a little"
+    ]
   ],
   "times": [
-    10,
-    15,
-    20,
-    30,
-    45,
-    60,
-    75,
-    90,
-    120,
-    180
+    [
+      1,
+      15
+    ],
+    [
+      1,
+      20
+    ],
+    [
+      2,
+      30
+    ],
+    [
+      2,
+      45
+    ],
+    [
+      3,
+      60
+    ],
+    [
+      3,
+      90
+    ],
+    [
+      4,
+      120
+    ],
+    [
+      4,
+      180
+    ],
+    [
+      5,
+      240
+    ],
+    [
+      5,
+      300
+    ]
   ]
 };
 
 export const WHEEL_PRESETS = {
   "zh": {
-    "soft": [
-      "牵手对视 30 秒",
-      "亲吻额头",
-      "交换一个秘密",
-      "夸 TA 三句",
-      "肩颈按摩 60 秒",
-      "闭眼猜触碰",
-      "只用眼神勾引",
-      "拥抱到呼吸同步",
-      "说一句今天最想听的话",
-      "给 TA 起今晚昵称",
-      "慢慢靠近但不亲",
-      "亲手背再说谢谢",
-      "坐近一点",
-      "一起选一首歌",
-      "交换一个小愿望",
-      "摸摸头发",
-      "嘴角轻吻",
-      "背后抱 20 秒",
-      "写下一个 Maybe",
-      "说出今晚安全词"
-    ],
-    "spicy": [
-      "深吻 20 秒后停住",
-      "脖颈亲吻 30 秒",
-      "耳边说一个愿望",
-      "只许对方指挥一分钟",
-      "隔着衣物慢慢触碰",
-      "轻咬一下再道歉",
-      "坐腿拥抱 45 秒",
-      "用唇画一条路线",
-      "亲一下就退开 5 次",
-      "镜前夸 TA",
-      "手腕被温柔扣住",
-      "换一个更近的姿势",
-      "脱去一件外层衣物",
-      "冰块轻触 15 秒",
-      "闭眼接受三个触碰",
-      "说一句更直接的情话",
-      "暂停 30 秒不许碰",
-      "让 TA 指定亲哪里",
-      "抽一张姿势卡",
-      "升一级继续"
-    ],
-    "wild": [
-      "热辣指令 90 秒",
-      "双方 Yes 的敏感处 60 秒",
-      "主导权交换",
-      "靠近高潮感时必须暂停",
-      "只许说继续/慢点/停",
-      "镜前完成一个成人夸奖",
-      "眼罩挑战 2 分钟",
-      "丝巾限制一只手 60 秒",
-      "选一个 Maybe 只讨论不执行",
-      "说一个成人幻想开头",
-      "玩具只在双方 Yes 时加入",
-      "浴室/床边二选一",
-      "由对方写一条命令",
-      "5 分钟热辣局后补水",
-      "用低声倒数控制节奏",
-      "亲密前先确认保护用品",
-      "把灯调暗重新开始",
-      "角色扮演抽卡",
-      "今晚最大胆的一句实话",
-      "转入抱抱收尾"
-    ],
-    "role": [
-      "老板和乖员工",
-      "冷淡前任复合",
-      "第一次约会后回家",
-      "舞会散场",
-      "摄影师和模特",
-      "酒吧偶遇",
-      "房东查房但很暧昧",
-      "学长学妹补课",
-      "保镖和大小姐",
-      "坏心情哄睡",
-      "严厉教练和偷懒学生",
-      "陌生人重新认识",
-      "霸道但会问同意",
-      "温柔命令者",
-      "被宠坏的小猫",
-      "只听三个口令",
-      "互换身份 3 分钟",
-      "今晚谁更会撩",
-      "对方写一句台词",
-      "角色结束必须抱抱"
-    ],
-    "props": [
-      "眼罩 60 秒",
-      "镜子前站好",
-      "冰块轻触",
-      "丝巾画路线",
-      "按摩油肩颈",
-      "氛围灯调到最暗",
-      "用纸条写命令",
-      "低温蜡烛只做氛围",
-      "浴袍/衬衫任务",
-      "播放最暧昧的歌",
-      "拍一张不露脸合照",
-      "毛巾/清洁准备好",
-      "靠枕换姿势",
-      "冷水热吻对比",
-      "香水靠近闻一下",
-      "实体骰子加罚一次",
-      "用便利贴贴愿望",
-      "只本地保存或不保存",
-      "小玩具仅 Yes 才用",
-      "补水后继续"
-    ],
-    "aftercare": [
-      "抱抱一分钟",
-      "喝水休息",
-      "说一句谢谢",
-      "问 TA 舒服吗",
-      "说今天最喜欢哪一刻",
-      "整理现场",
-      "盖毯子",
-      "亲额头收尾",
-      "记录一个下次想玩",
-      "删除不想保留的内容",
-      "互相打分 1-5",
-      "说一个下次不想要",
-      "轻拍后背",
-      "安静躺 2 分钟",
-      "夸 TA 很会照顾人",
-      "确认没有不舒服",
-      "一起洗手/清理",
-      "换回日常称呼",
-      "保存今晚愿望",
-      "结束游戏"
-    ]
+    "tease": {
+      "label": "先撩一下",
+      "desc": "开局用，暧昧但不冷场。",
+      "items": [
+        "十秒对视，谁先笑谁输",
+        "贴耳说一句今天最想听的话",
+        "亲嘴角三下，第三下停住",
+        "从背后抱住 30 秒",
+        "让 TA 坐近一点，不准解释",
+        "用手指从手腕慢慢滑到肩膀",
+        "亲锁骨附近一下就退开",
+        "说一句：今晚你归我管",
+        "选一个位置，只亲不碰 20 秒",
+        "把灯调暗，重新靠近",
+        "把手机放远，专心看 TA",
+        "给 TA 一个今晚专属称呼"
+      ]
+    },
+    "heat": {
+      "label": "开始发热",
+      "desc": "明显升温，亲吻、触碰、拉扯更多。",
+      "items": [
+        "深吻一分钟，不许敷衍",
+        "坐到对方腿上 60 秒",
+        "隔着衣物慢慢摸到 TA 说停",
+        "贴着耳朵说一句下流情话",
+        "让 TA 指定你亲哪里",
+        "衣角/领口慢慢解开一处",
+        "脖颈到锁骨连续亲 45 秒",
+        "闭眼接受三个触碰并猜位置",
+        "只准用气息撩，不准亲 30 秒",
+        "你来主导 2 分钟，对方只能反馈",
+        "抽到的人说出今晚最想试的玩法",
+        "把下一轮强度升一级"
+      ]
+    },
+    "wild": {
+      "label": "别装了",
+      "desc": "更直白，更成人，适合边界已确认。",
+      "items": [
+        "双方都 Yes 的敏感处停留 90 秒",
+        "让对方写一条命令，你照做",
+        "只准说：继续、慢点、停",
+        "衣物内触碰 60 秒，随时可停",
+        "镜子前说一句最露骨的夸奖",
+        "让 TA 指定一个更大胆的位置",
+        "靠近到对方主动开口为止",
+        "三分钟内由一方完全主导节奏",
+        "说出一个一直不好意思说的幻想",
+        "亲到对方主动抱紧你",
+        "加码：下一轮不能换题",
+        "热辣 5 分钟后必须补水抱抱"
+      ]
+    },
+    "role": {
+      "label": "换个身份",
+      "desc": "入戏比尺度更重要，台词和命令拉满。",
+      "items": [
+        "冷淡老板 / 乖员工，三条命令",
+        "深夜查房 / 装睡的人",
+        "第一次约会后，不小心靠太近",
+        "前任复合，嘴硬但身体诚实",
+        "摄影师和模特，镜前指导姿势",
+        "坏学生被留下补课",
+        "酒吧偶遇，假装第一次认识",
+        "霸道但会问同意的恋人",
+        "保镖和大小姐，贴身保护",
+        "医生检查心跳，越查越近",
+        "只听三个口令，不能多问",
+        "角色结束后必须抱抱 30 秒"
+      ]
+    },
+    "props": {
+      "label": "带点道具",
+      "desc": "眼罩、冰块、丝巾、镜子，让动作更有画面。",
+      "items": [
+        "眼罩 2 分钟，只能用声音反馈",
+        "丝巾轻轻限制一只手 60 秒",
+        "冰块沿锁骨附近停 10 秒",
+        "口红在不露脸的位置留下记号",
+        "镜子前完成一个亲密姿势",
+        "衬衫/浴袍限定任务 3 分钟",
+        "按摩油从肩颈开始，慢慢往下",
+        "纸条写一条命令，抽到就执行",
+        "只用一只手完成 60 秒挑逗",
+        "靠枕换姿势，不能站起来",
+        "播放最暧昧的歌，直到副歌结束",
+        "道具结束后问一句：还要吗"
+      ]
+    },
+    "dirty": {
+      "label": "下流一点",
+      "desc": "文案更直接，适合想玩花一点的情侣。",
+      "items": [
+        "说一句你平时不敢说的骚话",
+        "亲到 TA 先发出声音",
+        "让对方选择：更深吻 / 更贴近 / 更听话",
+        "用最低的声音命令 TA 靠近",
+        "把 TA 最敏感的反应说出来",
+        "一方只能听命令 2 分钟",
+        "让 TA 说出想被你怎么弄心动",
+        "把手放到双方 Yes 的位置不动 30 秒",
+        "今天谁更坏，谁就主导下一轮",
+        "抽到的人承认一个身体偏好",
+        "说一句：我想要你更主动",
+        "加码到 5 级，或者罚亲一分钟"
+      ]
+    },
+    "after": {
+      "label": "抱着结束",
+      "desc": "余韵、补水、复盘，把体验收好。",
+      "items": [
+        "抱抱一分钟，不看手机",
+        "喝水，问一句舒服吗",
+        "说今晚最喜欢的一个瞬间",
+        "夸 TA 一个具体反应",
+        "说一个下次想继续玩的点",
+        "确认有没有哪里不舒服",
+        "亲额头，把称呼切回日常",
+        "一起整理现场",
+        "保存一个愿望，删除不想留的记录",
+        "如果刚才太猛，降一级再来",
+        "安静躺 2 分钟",
+        "今晚到这里，抱着结束"
+      ]
+    }
   },
   "en": {
-    "soft": [
-      "hold hands 30s",
-      "forehead kiss",
-      "share a secret",
-      "three compliments",
-      "neck massage 60s",
-      "guess the touch",
-      "flirt with eyes only",
-      "hug until breathing syncs",
-      "say what you want to hear",
-      "give a nickname",
-      "move close without kissing",
-      "kiss hand and say thanks",
-      "sit closer",
-      "choose a song",
-      "share a small wish",
-      "touch hair",
-      "corner-of-mouth kiss",
-      "back hug 20s",
-      "write one Maybe",
-      "say the safeword"
-    ],
-    "spicy": [
-      "deep kiss 20s then stop",
-      "neck kisses 30s",
-      "whisper a wish",
-      "partner leads for 1 min",
-      "touch over clothing slowly",
-      "gentle nibble then apologize",
-      "lap cuddle 45s",
-      "trace a route with lips",
-      "kiss and pull away 5 times",
-      "mirror compliment",
-      "gently hold wrist",
-      "move closer",
-      "remove one outer layer",
-      "ice touch 15s",
-      "eyes closed, three touches",
-      "say a direct line",
-      "pause 30s no touch",
-      "partner chooses where",
-      "draw a pose card",
-      "raise one level"
-    ],
-    "wild": [
-      "hot command 90s",
-      "mutual Yes sensitive spot 60s",
-      "switch lead",
-      "pause when it gets intense",
-      "only say continue/slower/stop",
-      "adult mirror praise",
-      "blindfold 2 min",
-      "scarf holds one hand 60s",
-      "discuss one Maybe only",
-      "start an adult fantasy",
-      "toy only if mutual Yes",
-      "shower or bedside",
-      "partner writes a command",
-      "5-min hot round then water",
-      "low voice countdown",
-      "confirm protection first",
-      "dim lights and restart",
-      "draw role card",
-      "boldest truth tonight",
-      "go to aftercare"
-    ],
-    "role": [
-      "boss and obedient staff",
-      "exes making up",
-      "after first date",
-      "after the ball",
-      "photographer and model",
-      "bar strangers",
-      "flirty room check",
-      "senior tutor",
-      "bodyguard and heiress",
-      "bad mood bedtime",
-      "strict coach",
-      "meet as strangers",
-      "dominant but asks consent",
-      "gentle commander",
-      "spoiled kitten",
-      "only three commands",
-      "switch roles 3 min",
-      "who flirts better",
-      "partner writes a line",
-      "hug after role"
-    ],
-    "props": [
-      "blindfold 60s",
-      "stand at mirror",
-      "ice touch",
-      "scarf route",
-      "massage oil shoulders",
-      "dim the mood light",
-      "paper command",
-      "candle as mood only",
-      "robe/shirt task",
-      "play spicy song",
-      "no-face photo",
-      "prep towel/clean-up",
-      "pillow pose",
-      "cold water/hot kiss contrast",
-      "smell perfume close",
-      "real dice penalty",
-      "sticky-note wish",
-      "local only or no save",
-      "toy only if Yes",
-      "water then continue"
-    ],
-    "aftercare": [
-      "one-minute hug",
-      "drink water",
-      "say thank you",
-      "ask comfort",
-      "favorite moment",
-      "tidy up",
-      "blanket",
-      "forehead kiss",
-      "next-time wish",
-      "delete unwanted media",
-      "rate 1-5",
-      "name a no-next-time",
-      "soft back pats",
-      "quiet 2 minutes",
-      "praise care",
-      "check discomfort",
-      "clean up",
-      "daily names again",
-      "save wish",
-      "end game"
-    ]
+    "tease": {
+      "label": "First Tease",
+      "desc": "Warm, flirty and not awkward.",
+      "items": [
+        "Eye contact 10s; first smile loses",
+        "Whisper what you want to hear tonight",
+        "Kiss the corner of the mouth three times, stop on the third",
+        "Back hug for 30s",
+        "Ask them to sit closer, no explaining",
+        "Slide fingers from wrist to shoulder",
+        "Kiss near the collarbone then pull away",
+        "Say: tonight I take care of you",
+        "Pick one spot: kiss only, no hands, 20s",
+        "Dim the lights and move close again",
+        "Put phones away and focus",
+        "Give tonight-only nickname"
+      ]
+    },
+    "heat": {
+      "label": "Heat Up",
+      "desc": "Kissing, touch and tension.",
+      "items": [
+        "Deep kiss for one minute, no half-effort",
+        "Sit on partner's lap for 60s",
+        "Touch slowly over clothes until they say stop",
+        "Whisper one dirty sweet line",
+        "Partner chooses where you kiss",
+        "Slowly undo one outer layer",
+        "Neck to collarbone kisses for 45s",
+        "Eyes closed: guess three touches",
+        "Use breath only, no kiss, 30s",
+        "You lead for 2 minutes; partner only gives feedback",
+        "Say what you want to try tonight",
+        "Raise heat one level next round"
+      ]
+    },
+    "wild": {
+      "label": "No Pretending",
+      "desc": "More direct, adult, agreed boundaries only.",
+      "items": [
+        "Mutual-Yes sensitive spot for 90s",
+        "Partner writes one command; follow it",
+        "Only say: continue, slower, stop",
+        "Under-clothes touch for 60s; stop anytime",
+        "Mirror: give one explicit compliment",
+        "Partner chooses a bolder spot",
+        "Move close until partner asks for more",
+        "One partner controls the rhythm for 3 minutes",
+        "Say a fantasy you usually hide",
+        "Kiss until they pull you closer",
+        "Next round cannot be swapped",
+        "Hot 5 minutes, then water and cuddle"
+      ]
+    },
+    "role": {
+      "label": "Role Switch",
+      "desc": "Get into character with lines and commands.",
+      "items": [
+        "Cold boss / obedient staff: three commands",
+        "Late-night room check / pretending to sleep",
+        "After first date, too close by accident",
+        "Exes making up, words deny, body admits",
+        "Photographer and model, mirror directions",
+        "Bad student kept after class",
+        "Bar strangers meeting again",
+        "Dominant lover who still asks yes",
+        "Bodyguard and heiress, close protection",
+        "Doctor checks heartbeat, too close",
+        "Only three commands, no questions",
+        "End role with a 30s cuddle"
+      ]
+    },
+    "props": {
+      "label": "Props On",
+      "desc": "Blindfold, ice, scarf, mirror and visual tension.",
+      "items": [
+        "Blindfold 2 minutes; voice feedback only",
+        "Softly restrain one wrist with a scarf for 60s",
+        "Ice near collarbone for 10s",
+        "Lipstick mark somewhere private",
+        "Mirror intimate pose",
+        "Shirt/robe-only task for 3 minutes",
+        "Massage oil from shoulders, slowly lower",
+        "Write a paper command and draw it",
+        "One-hand-only tease for 60s",
+        "Pillow position; no standing up",
+        "Play the spiciest song until chorus ends",
+        "After props, ask: more?"
+      ]
+    },
+    "dirty": {
+      "label": "Dirtier",
+      "desc": "More direct language for playful couples.",
+      "items": [
+        "Say one filthy line you usually hide",
+        "Kiss until they make a sound",
+        "Choose: deeper kiss / closer body / more obedient",
+        "Use your lowest voice to command them closer",
+        "Name the reaction that turns you on",
+        "One partner obeys for 2 minutes",
+        "Ask how they want to be driven wild",
+        "Hold a mutual-Yes spot for 30s",
+        "Whoever is naughtier leads next round",
+        "Admit one body preference",
+        "Say: I want you more主动",
+        "Level 5 next, or one-minute kiss penalty"
+      ]
+    },
+    "after": {
+      "label": "End Cuddled",
+      "desc": "Afterglow, water and check-in.",
+      "items": [
+        "Cuddle one minute, no phones",
+        "Drink water and ask: comfortable?",
+        "Name the best moment tonight",
+        "Praise one specific reaction",
+        "Say what you want next time",
+        "Check if anything feels off",
+        "Forehead kiss and switch back to normal names",
+        "Clean up together",
+        "Save one wish, delete unwanted records",
+        "If that was too much, lower one level",
+        "Lie quietly for 2 minutes",
+        "End here, held close"
+      ]
+    }
   }
 };
 
 export const BUILT_IN_CARDS = [
   {
-    "id": "t001",
+    "id": "c001",
     "type": "truth",
     "level": 1,
     "tags": [
-      "truth",
-      "warmup"
+      "truth"
     ],
-    "zh": "今晚你最想被我怎么照顾？",
-    "en": "How do you most want me to care for you tonight?"
+    "zh": "今晚你最想被我怎么哄？",
+    "en": "How do you want me to comfort you tonight?"
   },
   {
-    "id": "t002",
+    "id": "c002",
     "type": "truth",
     "level": 1,
     "tags": [
-      "truth",
-      "warmup"
+      "truth"
     ],
-    "zh": "说一个你今天最想听到的夸奖。",
-    "en": "Name one compliment you want tonight."
+    "zh": "你最喜欢我靠近你的哪一个瞬间？",
+    "en": "What moment of me getting close do you like most?"
   },
   {
-    "id": "t003",
+    "id": "c003",
     "type": "truth",
     "level": 1,
     "tags": [
-      "truth",
-      "warmup"
+      "truth"
     ],
-    "zh": "第一次觉得我有吸引力，是哪一刻？",
-    "en": "When did you first find me attractive?"
+    "zh": "你希望我今晚叫你什么？",
+    "en": "What should I call you tonight?"
   },
   {
-    "id": "t004",
+    "id": "c004",
     "type": "truth",
     "level": 1,
     "tags": [
-      "truth",
-      "warmup"
+      "truth"
     ],
-    "zh": "你喜欢我靠近你之前先做什么？",
-    "en": "What do you like me to do before getting closer?"
+    "zh": "最近哪一次你觉得我很撩？",
+    "en": "When did I feel flirty to you recently?"
   },
   {
-    "id": "t005",
+    "id": "c005",
     "type": "truth",
     "level": 1,
     "tags": [
-      "truth",
-      "warmup"
+      "truth"
     ],
-    "zh": "今晚的关键词是什么：温柔、暧昧、刺激、被宠？",
-    "en": "What is tonight’s keyword: tender, flirty, intense, spoiled?"
+    "zh": "你最喜欢被亲哪里，先说一个安全答案。",
+    "en": "Where do you like being kissed? Start with a safe answer."
   },
   {
-    "id": "t006",
-    "type": "truth",
-    "level": 1,
-    "tags": [
-      "truth",
-      "warmup"
-    ],
-    "zh": "我身上哪个细节最容易让你心软？",
-    "en": "What detail about me softens you?"
-  },
-  {
-    "id": "t007",
-    "type": "truth",
-    "level": 1,
-    "tags": [
-      "truth",
-      "warmup"
-    ],
-    "zh": "你希望我今晚多说话还是多行动？",
-    "en": "Do you want more words or more actions tonight?"
-  },
-  {
-    "id": "t008",
-    "type": "truth",
-    "level": 1,
-    "tags": [
-      "truth",
-      "warmup"
-    ],
-    "zh": "说一个你最近很需要的拥抱方式。",
-    "en": "Describe the kind of hug you need lately."
-  },
-  {
-    "id": "t009",
+    "id": "c006",
     "type": "truth",
     "level": 2,
     "tags": [
-      "truth",
-      "warmup"
+      "truth"
     ],
-    "zh": "你最吃哪种暧昧：眼神、声音、手、气味？",
-    "en": "What flirts with you most: eyes, voice, hands, scent?"
+    "zh": "如果今晚只允许一个动作，你会选亲吻、拥抱还是被我贴近？",
+    "en": "If tonight allowed one action only: kiss, cuddle, or closeness?"
   },
   {
-    "id": "t010",
+    "id": "c007",
     "type": "truth",
     "level": 2,
     "tags": [
-      "truth",
-      "warmup"
+      "truth"
     ],
-    "zh": "你喜欢慢慢被撩，还是被突然拉近？",
-    "en": "Do you prefer slow teasing or being pulled close?"
+    "zh": "你最吃我哪一种语气：温柔、命令、撒娇还是坏笑？",
+    "en": "Which tone gets you most: soft, commanding, needy, or naughty?"
   },
   {
-    "id": "t011",
+    "id": "c008",
     "type": "truth",
     "level": 2,
     "tags": [
-      "truth",
-      "warmup"
+      "truth"
     ],
-    "zh": "说一个你愿意让我今晚试探，但必须慢一点的事。",
-    "en": "Name one thing I may test slowly tonight."
+    "zh": "你觉得我身上最性感的细节是什么？",
+    "en": "What detail on me feels sexiest?"
   },
   {
-    "id": "t012",
+    "id": "c009",
     "type": "truth",
     "level": 2,
     "tags": [
-      "truth",
-      "warmup"
+      "truth"
     ],
-    "zh": "哪一句称呼会让你心跳加速？",
-    "en": "What nickname makes your heart race?"
+    "zh": "你想让我主动一点，还是想自己掌控一点？",
+    "en": "Do you want me more active, or do you want control?"
   },
   {
-    "id": "t013",
+    "id": "c010",
     "type": "truth",
     "level": 2,
     "tags": [
-      "truth",
-      "warmup"
+      "truth"
     ],
-    "zh": "如果我只能碰一个地方，你想让我先碰哪里？",
-    "en": "If I could touch one place first, where?"
+    "zh": "上一次让你心跳加速的是哪一秒？",
+    "en": "What was the last second that made your heart race?"
   },
   {
-    "id": "t014",
-    "type": "truth",
-    "level": 2,
-    "tags": [
-      "truth",
-      "warmup"
-    ],
-    "zh": "你更喜欢被命令，还是命令我？",
-    "en": "Would you rather be guided, or guide me?"
-  },
-  {
-    "id": "t015",
-    "type": "truth",
-    "level": 2,
-    "tags": [
-      "truth",
-      "warmup"
-    ],
-    "zh": "你最喜欢哪种亲吻节奏？",
-    "en": "What kissing rhythm do you like best?"
-  },
-  {
-    "id": "t016",
-    "type": "truth",
-    "level": 2,
-    "tags": [
-      "truth",
-      "warmup"
-    ],
-    "zh": "你希望我靠近时先问哪一句？",
-    "en": "What should I ask before I get closer?"
-  },
-  {
-    "id": "t017",
+    "id": "c011",
     "type": "truth",
     "level": 3,
     "tags": [
-      "truth",
-      "warmup"
+      "truth"
     ],
-    "zh": "说一句你想听我在耳边说的话。",
-    "en": "Tell me one line you want whispered in your ear."
+    "zh": "你最想让我今晚多做的一件事是什么？",
+    "en": "What do you want me to do more tonight?"
   },
   {
-    "id": "t018",
+    "id": "c012",
     "type": "truth",
     "level": 3,
     "tags": [
-      "truth",
-      "warmup"
+      "truth"
     ],
-    "zh": "今晚你愿意把哪个 Maybe 只讨论一下？",
-    "en": "Which Maybe can we discuss tonight?"
+    "zh": "说一个你想试但不好意思开口的亲密动作。",
+    "en": "Name one intimate move you want but feel shy about."
   },
   {
-    "id": "t019",
+    "id": "c013",
     "type": "truth",
     "level": 3,
     "tags": [
-      "truth",
-      "warmup"
+      "truth"
     ],
-    "zh": "你最喜欢我主动的一个动作是什么？",
-    "en": "What move do you most like me to initiate?"
+    "zh": "你喜欢慢慢被撩，还是直接被点燃？",
+    "en": "Do you like slow teasing or direct heat?"
   },
   {
-    "id": "t020",
+    "id": "c014",
     "type": "truth",
     "level": 3,
     "tags": [
-      "truth",
-      "warmup"
+      "truth"
     ],
-    "zh": "你喜欢我强势一点，还是坏心眼一点？",
-    "en": "Do you like me more dominant or more mischievous?"
+    "zh": "你希望我更坏一点的时候，具体是什么样？",
+    "en": "When you want me naughtier, what exactly does that look like?"
   },
   {
-    "id": "t021",
+    "id": "c015",
     "type": "truth",
     "level": 3,
     "tags": [
-      "truth",
-      "warmup"
+      "truth"
     ],
-    "zh": "说一个你想被我慢慢发现的敏感点。",
-    "en": "Name a sensitive spot you want me to discover slowly."
+    "zh": "你最喜欢我亲你的时候做什么小动作？",
+    "en": "What little move do you like when I kiss you?"
   },
   {
-    "id": "t022",
-    "type": "truth",
-    "level": 3,
-    "tags": [
-      "truth",
-      "warmup"
-    ],
-    "zh": "你觉得“会撩”的人最重要是什么？",
-    "en": "What makes someone good at teasing?"
-  },
-  {
-    "id": "t023",
-    "type": "truth",
-    "level": 3,
-    "tags": [
-      "truth",
-      "warmup"
-    ],
-    "zh": "你希望今晚哪一刻被我停下来吊着？",
-    "en": "When do you want me to stop and tease you?"
-  },
-  {
-    "id": "t024",
-    "type": "truth",
-    "level": 3,
-    "tags": [
-      "truth",
-      "warmup"
-    ],
-    "zh": "你更喜欢开灯的暧昧，还是关灯的胆大？",
-    "en": "Lights-on flirt or lights-off boldness?"
-  },
-  {
-    "id": "t025",
+    "id": "c016",
     "type": "truth",
     "level": 4,
     "tags": [
-      "truth",
-      "heat"
+      "truth"
     ],
-    "zh": "说一个更成人的幻想，只说不做，听完先确认感受。",
-    "en": "Share a more adult fantasy; say only, then check feelings."
+    "zh": "说一个你想让我碰但平时不会主动说的位置。",
+    "en": "Say one place you want me to touch but rarely ask for."
   },
   {
-    "id": "t026",
+    "id": "c017",
     "type": "truth",
     "level": 4,
     "tags": [
-      "truth",
-      "heat"
+      "truth"
     ],
-    "zh": "在双方同意的前提下，今晚你想把哪里从 Maybe 试到 Yes？",
-    "en": "With mutual consent, what might move from Maybe to Yes tonight?"
+    "zh": "你更喜欢被命令、被哄、被挑逗，还是被占有感包住？",
+    "en": "Do you prefer commands, comfort, teasing, or possessive affection?"
   },
   {
-    "id": "t027",
+    "id": "c018",
     "type": "truth",
     "level": 4,
     "tags": [
-      "truth",
-      "heat"
+      "truth"
     ],
-    "zh": "你喜欢在亲密时被看着、抱住、还是被引导？",
-    "en": "During intimacy, do you prefer being watched, held or guided?"
+    "zh": "如果给今晚一个禁忌又安全的主题，你想叫什么？",
+    "en": "Give tonight a safe but taboo-sounding theme."
   },
   {
-    "id": "t028",
+    "id": "c019",
     "type": "truth",
     "level": 4,
     "tags": [
-      "truth",
-      "heat"
+      "truth"
     ],
-    "zh": "说一句更直接的愿望，但对方可以只回答 Maybe。",
-    "en": "Say a direct desire; Maybe is a valid answer."
+    "zh": "你希望我在你耳边说什么会让你软下来？",
+    "en": "What should I whisper that would melt you?"
   },
   {
-    "id": "t029",
+    "id": "c020",
     "type": "truth",
     "level": 4,
     "tags": [
-      "truth",
-      "heat"
+      "truth"
     ],
-    "zh": "你能接受多强的主导感？用 1 到 5 描述。",
-    "en": "How much dominance can you enjoy, from 1 to 5?"
+    "zh": "你最想听我用什么话承认我想要你？",
+    "en": "What words should I use to admit I want you?"
   },
   {
-    "id": "t030",
-    "type": "truth",
-    "level": 4,
-    "tags": [
-      "truth",
-      "heat"
-    ],
-    "zh": "你最想加入哪个道具？为什么？",
-    "en": "Which prop do you most want to add, and why?"
-  },
-  {
-    "id": "t031",
-    "type": "truth",
-    "level": 4,
-    "tags": [
-      "truth",
-      "heat"
-    ],
-    "zh": "你想让我今晚更温柔还是更会折磨你的耐心？",
-    "en": "Do you want me softer or more teasingly patient?"
-  },
-  {
-    "id": "t032",
-    "type": "truth",
-    "level": 4,
-    "tags": [
-      "truth",
-      "heat"
-    ],
-    "zh": "哪一种暂停最让你受不了：亲吻前、触碰中、还是快到时？",
-    "en": "Which pause is hardest: before kiss, during touch, or near intensity?"
-  },
-  {
-    "id": "t033",
+    "id": "c021",
     "type": "truth",
     "level": 5,
     "tags": [
-      "truth",
-      "heat"
+      "truth"
     ],
-    "zh": "说一个非常大胆但必须建立在双方 Yes 上的愿望。",
-    "en": "Name a very bold wish that requires mutual Yes."
+    "zh": "说一个双方 Yes 的成人幻想开头，不用完整讲完。",
+    "en": "Start one mutual-Yes adult fantasy; you don't have to finish."
   },
   {
-    "id": "t034",
+    "id": "c022",
     "type": "truth",
     "level": 5,
     "tags": [
-      "truth",
-      "heat"
+      "truth"
     ],
-    "zh": "如果今晚可以设计一条专属规则，你会写什么？",
-    "en": "If you made one private rule tonight, what is it?"
+    "zh": "你想被我怎么弄到失控一点，但仍然舒服？",
+    "en": "How do you want me to make you lose control while still feeling good?"
   },
   {
-    "id": "t035",
+    "id": "c023",
     "type": "truth",
     "level": 5,
     "tags": [
-      "truth",
-      "heat"
+      "truth"
     ],
-    "zh": "说一个你想被我“坏一点”对待的场景，不执行也可以。",
-    "en": "Describe a scenario where you want me more wicked; no need to do it."
+    "zh": "今晚你愿意交给我几分钟主导权？说具体数字。",
+    "en": "How many minutes of control would you give me tonight?"
   },
   {
-    "id": "t036",
+    "id": "c024",
     "type": "truth",
     "level": 5,
     "tags": [
-      "truth",
-      "heat"
+      "truth"
     ],
-    "zh": "你最想让我记住你的哪一个反应？",
-    "en": "Which reaction of yours do you want me to remember?"
+    "zh": "说一个你最容易有反应的部位或情境。",
+    "en": "Name one body area or situation that gets a strong reaction."
   },
   {
-    "id": "t037",
+    "id": "c025",
     "type": "truth",
     "level": 5,
     "tags": [
-      "truth",
-      "heat"
+      "truth"
     ],
-    "zh": "在安全词有效的前提下，你愿意尝试哪种更强烈的节奏？",
-    "en": "With safeword active, what stronger rhythm might you try?"
+    "zh": "你想让我低声命令你什么？",
+    "en": "What do you want me to command in a low voice?"
   },
   {
-    "id": "t038",
-    "type": "truth",
-    "level": 5,
-    "tags": [
-      "truth",
-      "heat"
-    ],
-    "zh": "说一句今晚最不想承认但很想要的真心话。",
-    "en": "Say the truth you least want to admit but want tonight."
-  },
-  {
-    "id": "d039",
+    "id": "c026",
     "type": "dare",
     "level": 1,
     "tags": [
       "dare",
-      "tease"
+      "warmup"
     ],
-    "zh": "{giver} 握住 {receiver} 的手，认真夸 TA 20 秒。",
-    "en": "{giver} holds {receiver}'s hand and praises them for 20 seconds."
+    "zh": "牵住 TA 的手，对视 20 秒后亲一下。",
+    "en": "Hold their hand, eye contact 20s, then kiss."
   },
   {
-    "id": "d040",
+    "id": "c027",
     "type": "dare",
     "level": 1,
     "tags": [
       "dare",
-      "tease"
+      "warmup"
     ],
-    "zh": "不许亲吻，用眼神让对方先笑出来。",
-    "en": "No kissing; make your partner smile with eye contact."
+    "zh": "从背后抱住 TA，慢慢数到 30。",
+    "en": "Back hug them and count slowly to 30."
   },
   {
-    "id": "d041",
+    "id": "c028",
     "type": "dare",
     "level": 1,
     "tags": [
       "dare",
-      "tease"
+      "warmup"
     ],
-    "zh": "一起把手机扣下，今晚只看彼此。",
-    "en": "Put phones face down and look only at each other."
+    "zh": "贴近 TA，说一句今天最想听的话。",
+    "en": "Move close and say what you most want to hear tonight."
   },
   {
-    "id": "d042",
+    "id": "c029",
     "type": "dare",
     "level": 1,
     "tags": [
       "dare",
-      "tease"
+      "warmup"
     ],
-    "zh": "{giver} 给 {receiver} 一个背后抱，停 20 秒。",
-    "en": "{giver} gives {receiver} a back hug for 20 seconds."
+    "zh": "亲 TA 的额头、脸颊、嘴角各一下。",
+    "en": "Kiss forehead, cheek and corner of mouth once."
   },
   {
-    "id": "d043",
+    "id": "c030",
     "type": "dare",
     "level": 1,
     "tags": [
       "dare",
-      "tease"
+      "warmup"
     ],
-    "zh": "每人说一个今天不想碰的区域。",
-    "en": "Each person names one area not to touch today."
+    "zh": "把 TA 拉近一点，但 10 秒内不准亲。",
+    "en": "Pull them closer but no kissing for 10s."
   },
   {
-    "id": "d044",
-    "type": "dare",
-    "level": 1,
-    "tags": [
-      "dare",
-      "tease"
-    ],
-    "zh": "额头贴额头，呼吸同步 30 秒。",
-    "en": "Forehead to forehead, breathe together for 30 seconds."
-  },
-  {
-    "id": "d045",
+    "id": "c031",
     "type": "dare",
     "level": 2,
     "tags": [
       "dare",
-      "tease"
+      "warmup"
     ],
-    "zh": "{giver} 从 10 厘米外慢慢靠近，由 {receiver} 说停。",
-    "en": "{giver} approaches from 10 cm; {receiver} says when to stop."
+    "zh": "坐得更近，让大腿贴着大腿 60 秒。",
+    "en": "Sit closer, thigh to thigh, for 60s."
   },
   {
-    "id": "d046",
+    "id": "c032",
     "type": "dare",
     "level": 2,
     "tags": [
       "dare",
-      "tease"
+      "warmup"
     ],
-    "zh": "{receiver} 闭眼，{giver} 用三种不同力度碰手臂，让对方猜。",
-    "en": "{receiver} closes eyes; {giver} uses three touches on the arm for guessing."
+    "zh": "亲 TA 的脖颈附近 20 秒，随时听停。",
+    "en": "Kiss near the neck for 20s; listen for stop."
   },
   {
-    "id": "d047",
+    "id": "c033",
     "type": "dare",
     "level": 2,
     "tags": [
       "dare",
-      "tease"
+      "warmup"
     ],
-    "zh": "换一种更低的声音说：“现在轮到我照顾你。”",
-    "en": "In a lower voice say: “Now it is my turn to take care of you.”"
+    "zh": "用指尖从手心滑到手臂内侧。",
+    "en": "Slide fingertips from palm to inner arm."
   },
   {
-    "id": "d048",
+    "id": "c034",
     "type": "dare",
     "level": 2,
     "tags": [
       "dare",
-      "tease"
+      "warmup"
     ],
-    "zh": "{giver} 只用一根手指，在允许区域画一条 15 秒路线。",
-    "en": "{giver} uses one finger to trace a 15-second route on approved areas."
+    "zh": "让 TA 闭眼，给三个轻触让 TA 猜。",
+    "en": "Partner closes eyes; give three touches to guess."
   },
   {
-    "id": "d049",
+    "id": "c035",
     "type": "dare",
     "level": 2,
     "tags": [
       "dare",
-      "tease"
+      "warmup"
     ],
-    "zh": "坐近一点，膝盖或肩膀贴住 60 秒。",
-    "en": "Sit closer, knees or shoulders touching for 60 seconds."
+    "zh": "低声说一句：今晚我想慢慢来。",
+    "en": "Say softly: tonight I want to take it slow."
   },
   {
-    "id": "d050",
-    "type": "dare",
-    "level": 2,
-    "tags": [
-      "dare",
-      "tease"
-    ],
-    "zh": "{receiver} 给三个指令：靠近、停下、换地方。",
-    "en": "{receiver} gives three commands: closer, stop, move."
-  },
-  {
-    "id": "d051",
-    "type": "dare",
-    "level": 2,
-    "tags": [
-      "dare",
-      "tease"
-    ],
-    "zh": "脱去一件外层衣物或换成更舒服的姿势，二选一。",
-    "en": "Remove one outer layer or move into a more comfortable pose."
-  },
-  {
-    "id": "d052",
-    "type": "dare",
-    "level": 2,
-    "tags": [
-      "dare",
-      "tease"
-    ],
-    "zh": "{giver} 在耳边说一句暧昧台词，不许笑场。",
-    "en": "{giver} whispers one flirty line without laughing."
-  },
-  {
-    "id": "d053",
+    "id": "c036",
     "type": "dare",
     "level": 3,
     "tags": [
       "dare",
-      "tease"
+      "dirty"
     ],
-    "zh": "{giver} 亲吻 {receiver} 允许的位置 30 秒，中间必须暂停一次。",
-    "en": "{giver} kisses approved spots for 30 seconds, with one required pause."
+    "zh": "深吻 60 秒，中途只能用手势反馈。",
+    "en": "Deep kiss 60s; feedback by gestures only."
   },
   {
-    "id": "d054",
+    "id": "c037",
     "type": "dare",
     "level": 3,
     "tags": [
       "dare",
-      "tease"
+      "dirty"
     ],
-    "zh": "{receiver} 指定一个位置，{giver} 只能靠近不能碰 15 秒。",
-    "en": "{receiver} picks a place; {giver} may approach but not touch for 15 seconds."
+    "zh": "让 TA 坐在你腿上，贴近说一句命令。",
+    "en": "Have them sit on your lap and whisper one command."
   },
   {
-    "id": "d055",
+    "id": "c038",
     "type": "dare",
     "level": 3,
     "tags": [
       "dare",
-      "tease"
+      "dirty"
     ],
-    "zh": "镜子前站好，说出 TA 身上三个让你想靠近的细节。",
-    "en": "At the mirror, name three details that make you want to get closer."
+    "zh": "隔着衣物，从腰侧慢慢摸到 TA 点头的位置。",
+    "en": "Over clothes, touch from waist to a place they nod yes to."
   },
   {
-    "id": "d056",
+    "id": "c039",
     "type": "dare",
     "level": 3,
     "tags": [
       "dare",
-      "tease"
+      "dirty"
     ],
-    "zh": "{giver} 温柔扣住 {receiver} 的手腕 20 秒，问“这样可以吗？”",
-    "en": "{giver} gently holds {receiver}'s wrist for 20 seconds and asks if it is okay."
+    "zh": "在锁骨附近停留 30 秒，停比亲更久。",
+    "en": "Stay near the collarbone for 30s; pause longer than kissing."
   },
   {
-    "id": "d057",
+    "id": "c040",
     "type": "dare",
     "level": 3,
     "tags": [
       "dare",
-      "tease"
+      "dirty"
     ],
-    "zh": "{receiver} 闭眼，{giver} 在三个允许位置各停留 10 秒。",
-    "en": "{receiver} closes eyes; {giver} stays at three approved areas for 10 seconds each."
+    "zh": "亲一下，退开，重复 5 次，不准一次结束。",
+    "en": "Kiss, pull away, repeat 5 times."
   },
   {
-    "id": "d058",
-    "type": "dare",
-    "level": 3,
-    "tags": [
-      "dare",
-      "tease"
-    ],
-    "zh": "用“亲一下就退开”的方式重复 5 次。",
-    "en": "Kiss and pull away 5 times."
-  },
-  {
-    "id": "d059",
-    "type": "dare",
-    "level": 3,
-    "tags": [
-      "dare",
-      "tease"
-    ],
-    "zh": "主导方写一个 60 秒命令，接受方可以改一个词。",
-    "en": "Leader writes a 60-second command; follower may change one word."
-  },
-  {
-    "id": "d060",
-    "type": "dare",
-    "level": 3,
-    "tags": [
-      "dare",
-      "tease"
-    ],
-    "zh": "{giver} 对 {receiver} 说一句占有感台词，然后马上确认舒适度。",
-    "en": "{giver} says one possessive-style line, then checks comfort."
-  },
-  {
-    "id": "d061",
+    "id": "c041",
     "type": "dare",
     "level": 4,
     "tags": [
       "dare",
-      "heat"
+      "dirty"
     ],
-    "zh": "双方 Yes 后，选择一个敏感但安全的位置，触碰 60 秒。",
-    "en": "After mutual Yes, choose a sensitive but safe area and touch for 60 seconds."
+    "zh": "衣物内触碰 45 秒，任何一方不舒服就立刻换题。",
+    "en": "Touch under clothes for 45s; switch if either feels off."
   },
   {
-    "id": "d062",
+    "id": "c042",
     "type": "dare",
     "level": 4,
     "tags": [
       "dare",
-      "heat"
+      "dirty"
     ],
-    "zh": "眼罩挑战：被蒙眼者只用“继续/慢点/停”反馈 90 秒。",
-    "en": "Blindfold challenge: feedback only with continue/slower/stop for 90 seconds."
+    "zh": "让 TA 指定一个双方 Yes 的位置，你只负责照做。",
+    "en": "Partner picks a mutual-Yes spot; you follow."
   },
   {
-    "id": "d063",
+    "id": "c043",
     "type": "dare",
     "level": 4,
     "tags": [
       "dare",
-      "heat"
+      "dirty"
     ],
-    "zh": "{giver} 用亲吻和暂停控制节奏 90 秒，{receiver} 随时指挥。",
-    "en": "{giver} controls pace with kisses and pauses for 90 seconds; {receiver} may guide."
+    "zh": "镜子前贴近 60 秒，说出你看到的性感细节。",
+    "en": "At the mirror, close for 60s; name the sexy details."
   },
   {
-    "id": "d064",
+    "id": "c044",
     "type": "dare",
     "level": 4,
     "tags": [
       "dare",
-      "heat"
+      "dirty"
     ],
-    "zh": "丝巾轻轻限制一只手 60 秒，只在双方 Yes 时执行。",
-    "en": "Lightly restrict one hand with a scarf for 60 seconds, mutual Yes only."
+    "zh": "你主导 2 分钟，对方只能说继续、慢点、停。",
+    "en": "You lead for 2 minutes; partner says continue, slower, stop."
   },
   {
-    "id": "d065",
+    "id": "c045",
     "type": "dare",
     "level": 4,
     "tags": [
       "dare",
-      "heat"
+      "dirty"
     ],
-    "zh": "选一个成人 Maybe，只讨论边界、不要马上执行。",
-    "en": "Pick an adult Maybe and discuss boundaries only, no immediate action."
+    "zh": "把对方亲到主动抱紧你，亲不到就加 30 秒。",
+    "en": "Kiss until they pull you closer; otherwise add 30s."
   },
   {
-    "id": "d066",
-    "type": "dare",
-    "level": 4,
-    "tags": [
-      "dare",
-      "heat"
-    ],
-    "zh": "{receiver} 设定三个禁止词，{giver} 避开它们完成暧昧夸奖。",
-    "en": "{receiver} bans three words; {giver} gives a spicy compliment without them."
-  },
-  {
-    "id": "d067",
-    "type": "dare",
-    "level": 4,
-    "tags": [
-      "dare",
-      "heat"
-    ],
-    "zh": "5 分钟热辣局：每分钟必须确认一次“还好吗？”",
-    "en": "5-minute hot round: check “still okay?” every minute."
-  },
-  {
-    "id": "d068",
-    "type": "dare",
-    "level": 4,
-    "tags": [
-      "dare",
-      "heat"
-    ],
-    "zh": "如果有保护用品/清洁准备，确认一次；没有就不进入更成人的玩法。",
-    "en": "Confirm protection/clean-up; without it, do not enter more adult play."
-  },
-  {
-    "id": "d069",
+    "id": "c046",
     "type": "dare",
     "level": 5,
     "tags": [
       "dare",
-      "heat"
+      "dirty"
     ],
-    "zh": "热辣局 3 分钟：只做双方边界清单里共同 Yes 的内容。",
-    "en": "3-minute hot round: only mutual Yes items from the boundary list."
+    "zh": "双方都 Yes 的敏感处停留 90 秒，过程中每 30 秒确认一次。",
+    "en": "Mutual-Yes sensitive spot for 90s; check every 30s."
   },
   {
-    "id": "d070",
+    "id": "c047",
     "type": "dare",
     "level": 5,
     "tags": [
       "dare",
-      "heat"
+      "dirty"
     ],
-    "zh": "由 {receiver} 写下一个大胆命令，{giver} 可以选择执行、降级或跳过。",
-    "en": "{receiver} writes a bold command; {giver} may do, soften or skip."
+    "zh": "让 TA 写一条成人命令，你抽到后执行一次。",
+    "en": "Partner writes an adult command; draw and do it once."
   },
   {
-    "id": "d071",
+    "id": "c048",
     "type": "dare",
     "level": 5,
     "tags": [
       "dare",
-      "heat"
+      "dirty"
     ],
-    "zh": "主导方用倒数控制靠近和暂停，接受方拥有随时停止权。",
-    "en": "Leader uses countdowns for approach and pause; follower can stop anytime."
+    "zh": "三分钟主导权交换：一方只负责听话和反馈。",
+    "en": "3-minute control swap: one obeys and gives feedback."
   },
   {
-    "id": "d072",
+    "id": "c049",
     "type": "dare",
     "level": 5,
     "tags": [
       "dare",
-      "heat"
+      "dirty"
     ],
-    "zh": "选择一个已共同 Yes 的成人玩法，开始前说出安全词，结束后复盘。",
-    "en": "Choose one mutual Yes adult play; say the safeword first and check in after."
+    "zh": "说一句很露骨但只属于 TA 的情话，然后照着做 30 秒。",
+    "en": "Say one explicit private line, then act on it for 30s."
   },
   {
-    "id": "d073",
+    "id": "c050",
     "type": "dare",
     "level": 5,
     "tags": [
       "dare",
-      "heat"
+      "dirty"
     ],
-    "zh": "把灯光调暗，双方各说一句“我想要……”，只执行共同 Yes 的交集。",
-    "en": "Dim the lights; each says “I want…” and do only the mutual Yes overlap."
+    "zh": "选择：加码到更贴身，或者罚深吻一分钟。",
+    "en": "Choose: escalate closer, or one-minute deep-kiss penalty."
   },
   {
-    "id": "d074",
-    "type": "dare",
-    "level": 5,
-    "tags": [
-      "dare",
-      "heat"
-    ],
-    "zh": "热辣升级：当前任务强度 +1；如果任何人犹豫，立即降级。",
-    "en": "Hot upgrade: current intensity +1; if anyone hesitates, downgrade immediately."
-  },
-  {
-    "id": "k075",
+    "id": "c051",
     "type": "kiss",
     "level": 1,
     "tags": [
       "kiss",
       "tease"
     ],
-    "zh": "{giver} 亲吻 {receiver} 的手背，再说一句谢谢。",
-    "en": "{giver} kisses {receiver}'s hand and says thank you."
+    "zh": "三连亲：额头、脸颊、嘴角。",
+    "en": "Triple kiss: forehead, cheek, corner of mouth."
   },
   {
-    "id": "k076",
-    "type": "kiss",
-    "level": 1,
-    "tags": [
-      "kiss",
-      "tease"
-    ],
-    "zh": "额头吻 5 秒，然后换人。",
-    "en": "Forehead kiss for 5 seconds, then switch."
-  },
-  {
-    "id": "k077",
-    "type": "kiss",
-    "level": 1,
-    "tags": [
-      "kiss",
-      "tease"
-    ],
-    "zh": "脸颊三连吻，每一下都慢一点。",
-    "en": "Three cheek kisses, slower each time."
-  },
-  {
-    "id": "k078",
-    "type": "kiss",
-    "level": 1,
-    "tags": [
-      "kiss",
-      "tease"
-    ],
-    "zh": "嘴角轻吻一下，不许立刻深吻。",
-    "en": "One corner-of-mouth kiss, no deeper kiss yet."
-  },
-  {
-    "id": "k079",
+    "id": "c052",
     "type": "kiss",
     "level": 2,
     "tags": [
       "kiss",
       "tease"
     ],
-    "zh": "靠近但先不亲，等对方点头再亲。",
-    "en": "Move close but wait for a nod before kissing."
+    "zh": "只亲不摸 45 秒。",
+    "en": "Kiss only, no hands, 45s."
   },
   {
-    "id": "k080",
+    "id": "c053",
     "type": "kiss",
     "level": 2,
     "tags": [
       "kiss",
       "tease"
     ],
-    "zh": "只用唇轻触 20 秒，越慢越好。",
-    "en": "Light lip contact for 20 seconds, slower is better."
+    "zh": "亲到对方笑场为止。",
+    "en": "Kiss until they laugh."
   },
   {
-    "id": "k081",
-    "type": "kiss",
-    "level": 2,
-    "tags": [
-      "kiss",
-      "tease"
-    ],
-    "zh": "亲吻肩颈附近 30 秒，避开 No 区域。",
-    "en": "Kiss around neck and shoulders for 30 seconds, avoiding No areas."
-  },
-  {
-    "id": "k082",
-    "type": "kiss",
-    "level": 2,
-    "tags": [
-      "kiss",
-      "tease"
-    ],
-    "zh": "亲一下就退开，重复 6 次。",
-    "en": "Kiss and pull away, repeat 6 times."
-  },
-  {
-    "id": "k083",
+    "id": "c054",
     "type": "kiss",
     "level": 3,
     "tags": [
       "kiss",
       "tease"
     ],
-    "zh": "由 {receiver} 用手指指路，{giver} 只亲被允许的位置。",
-    "en": "{receiver} points the route; {giver} kisses only approved spots."
+    "zh": "深吻 90 秒，结束后额头贴额头。",
+    "en": "Deep kiss 90s, then forehead to forehead."
   },
   {
-    "id": "k084",
+    "id": "c055",
     "type": "kiss",
     "level": 3,
     "tags": [
       "kiss",
       "tease"
     ],
-    "zh": "深吻 20 秒，然后立刻停下对视 10 秒。",
-    "en": "Deep kiss for 20 seconds, then stop for 10 seconds of eye contact."
+    "zh": "脖颈附近亲吻 45 秒。",
+    "en": "Neck-area kisses for 45s."
   },
   {
-    "id": "k085",
+    "id": "c056",
     "type": "kiss",
-    "level": 3,
+    "level": 4,
     "tags": [
       "kiss",
       "tease"
     ],
-    "zh": "亲吻锁骨附近 30 秒，必须问一次“还可以吗？”",
-    "en": "Kiss near the collarbone for 30 seconds and ask once if it is okay."
+    "zh": "亲到对方说出一个想要的位置。",
+    "en": "Kiss until partner names a desired spot."
   },
   {
-    "id": "k086",
+    "id": "c057",
     "type": "kiss",
-    "level": 3,
+    "level": 4,
     "tags": [
       "kiss",
       "tease"
     ],
-    "zh": "用唇画一条从手腕到肩膀的路线。",
-    "en": "Trace a route with lips from wrist to shoulder."
+    "zh": "从嘴角慢慢亲到锁骨附近。",
+    "en": "Slowly kiss from mouth corner to collarbone area."
   },
   {
-    "id": "k087",
-    "type": "kiss",
-    "level": 4,
-    "tags": [
-      "kiss",
-      "heat"
-    ],
-    "zh": "选择双方 Yes 的敏感位置，用亲吻和暂停玩 60 秒。",
-    "en": "Choose a mutual Yes sensitive spot and alternate kisses and pauses for 60 seconds."
-  },
-  {
-    "id": "k088",
-    "type": "kiss",
-    "level": 4,
-    "tags": [
-      "kiss",
-      "heat"
-    ],
-    "zh": "{receiver} 只能说“继续/慢点/停”，{giver} 按反馈亲吻 90 秒。",
-    "en": "{receiver} may only say continue/slower/stop; {giver} follows for 90 seconds."
-  },
-  {
-    "id": "k089",
-    "type": "kiss",
-    "level": 4,
-    "tags": [
-      "kiss",
-      "heat"
-    ],
-    "zh": "亲吻前倒数 5 秒，每一秒都靠近一点。",
-    "en": "Count down 5 seconds before kissing, moving closer each second."
-  },
-  {
-    "id": "k090",
-    "type": "kiss",
-    "level": 4,
-    "tags": [
-      "kiss",
-      "heat"
-    ],
-    "zh": "热吻 30 秒，中间主导方必须故意停一次。",
-    "en": "Hot kiss for 30 seconds, with one deliberate pause."
-  },
-  {
-    "id": "k091",
+    "id": "c058",
     "type": "kiss",
     "level": 5,
     "tags": [
       "kiss",
-      "heat"
-    ],
-    "zh": "只在共同 Yes 的成人范围内，进行更深入的吻与贴近 90 秒后复盘。",
-    "en": "Within mutual Yes adult boundaries, share deeper kissing and closeness for 90 seconds, then check in."
-  },
-  {
-    "id": "k092",
-    "type": "kiss",
-    "level": 5,
-    "tags": [
-      "kiss",
-      "heat"
-    ],
-    "zh": "双方说出安全词后，选择一个大胆亲吻任务执行或降级。",
-    "en": "Say the safeword, then choose one bold kissing task to do or soften."
-  },
-  {
-    "id": "t093",
-    "type": "touch",
-    "level": 1,
-    "tags": [
-      "touch",
       "tease"
     ],
-    "zh": "肩颈按摩 60 秒，结束问舒服度 1-5。",
-    "en": "Neck and shoulder massage for 60 seconds, then rate comfort 1-5."
+    "zh": "双方 Yes 的位置，亲吻或轻咬 60 秒。",
+    "en": "Mutual-Yes spot: kiss or gentle nibble for 60s."
   },
   {
-    "id": "t094",
-    "type": "touch",
-    "level": 1,
-    "tags": [
-      "touch",
-      "tease"
-    ],
-    "zh": "手心画圈 30 秒。",
-    "en": "Draw circles on the palm for 30 seconds."
-  },
-  {
-    "id": "t095",
-    "type": "touch",
-    "level": 1,
-    "tags": [
-      "touch",
-      "tease"
-    ],
-    "zh": "背后抱住，手只放在对方允许的位置。",
-    "en": "Back hug, hands only on approved places."
-  },
-  {
-    "id": "t096",
-    "type": "touch",
-    "level": 1,
-    "tags": [
-      "touch",
-      "tease"
-    ],
-    "zh": "给对方整理头发或衣领。",
-    "en": "Fix your partner’s hair or collar."
-  },
-  {
-    "id": "t097",
+    "id": "c059",
     "type": "touch",
     "level": 2,
     "tags": [
       "touch",
-      "tease"
+      "dirty"
     ],
-    "zh": "隔着衣物触碰腰侧 20 秒。",
-    "en": "Touch waist over clothing for 20 seconds."
+    "zh": "隔着衣物，只用一只手触碰 60 秒。",
+    "en": "Over clothes, one hand only, 60s."
   },
   {
-    "id": "t098",
+    "id": "c060",
     "type": "touch",
     "level": 2,
     "tags": [
       "touch",
-      "tease"
+      "dirty"
     ],
-    "zh": "从手腕慢慢碰到肩膀，问哪里最舒服。",
-    "en": "Move from wrist to shoulder and ask what feels best."
+    "zh": "按摩肩颈 90 秒，但故意靠得很近。",
+    "en": "Neck and shoulder massage 90s, very close."
   },
   {
-    "id": "t099",
-    "type": "touch",
-    "level": 2,
-    "tags": [
-      "touch",
-      "tease"
-    ],
-    "zh": "用指尖在后背写一个字，让 TA 猜。",
-    "en": "Write a word on their back with fingertips for guessing."
-  },
-  {
-    "id": "t100",
-    "type": "touch",
-    "level": 2,
-    "tags": [
-      "touch",
-      "tease"
-    ],
-    "zh": "轻轻托住下巴，但只在对方点头后。",
-    "en": "Gently lift the chin, only after a nod."
-  },
-  {
-    "id": "t101",
+    "id": "c061",
     "type": "touch",
     "level": 3,
     "tags": [
       "touch",
-      "prop"
+      "dirty"
     ],
-    "zh": "眼罩下完成三次不同触碰，被触碰者猜动作。",
-    "en": "With blindfold, do three different touches for guessing."
+    "zh": "从手腕到肩膀，慢慢画一条路线。",
+    "en": "Trace a slow route wrist to shoulder."
   },
   {
-    "id": "t102",
+    "id": "c062",
     "type": "touch",
     "level": 3,
     "tags": [
       "touch",
-      "tease"
+      "dirty"
     ],
-    "zh": "{receiver} 指定力度：轻、慢、停；{giver} 只照做。",
-    "en": "{receiver} sets pressure: light, slow, stop; {giver} follows only."
+    "zh": "让 TA 闭眼，你选三个位置轻触。",
+    "en": "Partner closes eyes; choose three light touches."
   },
   {
-    "id": "t103",
-    "type": "touch",
-    "level": 3,
-    "tags": [
-      "touch",
-      "tease"
-    ],
-    "zh": "在镜子前从肩膀到腰侧慢慢拥抱。",
-    "en": "At the mirror, slowly hug from shoulders to waist."
-  },
-  {
-    "id": "t104",
-    "type": "touch",
-    "level": 3,
-    "tags": [
-      "touch",
-      "tease"
-    ],
-    "zh": "手腕轻扣 20 秒，然后松开亲一下。",
-    "en": "Gently hold the wrist for 20 seconds, then release and kiss."
-  },
-  {
-    "id": "t105",
+    "id": "c063",
     "type": "touch",
     "level": 4,
     "tags": [
       "touch",
-      "tease"
+      "dirty"
     ],
-    "zh": "在双方 Yes 的敏感位置停留 45 秒，不追求结果，只观察反馈。",
-    "en": "Stay at a mutual Yes sensitive spot for 45 seconds; focus on feedback."
+    "zh": "大腿内侧附近停留 30 秒，不急着继续。",
+    "en": "Near inner thigh for 30s; do not rush."
   },
   {
-    "id": "t106",
+    "id": "c064",
     "type": "touch",
     "level": 4,
     "tags": [
       "touch",
-      "prop"
+      "dirty"
     ],
-    "zh": "冰块/冷水杯触碰 15 秒，然后用掌心暖回来。",
-    "en": "Ice/cold cup touch for 15 seconds, then warm with palm."
+    "zh": "胸口或腰侧，选择一个双方 Yes 的位置。",
+    "en": "Choose chest or waist, mutual Yes only."
   },
   {
-    "id": "t107",
-    "type": "touch",
-    "level": 4,
-    "tags": [
-      "touch",
-      "tease"
-    ],
-    "zh": "由接受方完全指挥触碰路线 2 分钟。",
-    "en": "Receiver fully guides the touch route for 2 minutes."
-  },
-  {
-    "id": "t108",
-    "type": "touch",
-    "level": 4,
-    "tags": [
-      "touch",
-      "tease"
-    ],
-    "zh": "轻度限制一只手，同时每 30 秒确认一次。",
-    "en": "Lightly restrict one hand and check in every 30 seconds."
-  },
-  {
-    "id": "t109",
+    "id": "c065",
     "type": "touch",
     "level": 5,
     "tags": [
       "touch",
-      "tease"
+      "dirty"
     ],
-    "zh": "热辣触碰 3 分钟：只做边界清单共同 Yes 的区域和动作。",
-    "en": "Hot touch for 3 minutes: only mutual Yes areas and actions."
+    "zh": "私密位置只做已经共同 Yes 的动作 60 秒。",
+    "en": "Intimate spot: mutual-Yes action only, 60s."
   },
   {
-    "id": "t110",
+    "id": "c066",
     "type": "touch",
     "level": 5,
     "tags": [
       "touch",
-      "tease"
+      "dirty"
     ],
-    "zh": "选择一个更强烈节奏，但任何犹豫都立即降级。",
-    "en": "Choose a stronger rhythm, but downgrade at any hesitation."
+    "zh": "让对方把你的手带到想要的位置。",
+    "en": "Let partner guide your hand to the wanted place."
   },
   {
-    "id": "r111",
+    "id": "c067",
     "type": "role",
     "level": 2,
     "tags": [
-      "role",
-      "dare"
+      "role"
     ],
-    "zh": "角色：第一次约会后回家。任务：重新自我介绍并靠近。",
-    "en": "Role: after a first date. Task: introduce yourselves again and move closer."
+    "zh": "第一次约会后的门口：谁都不想先走。",
+    "en": "After first date at the door: neither wants to leave."
   },
   {
-    "id": "r112",
+    "id": "c068",
     "type": "role",
     "level": 2,
     "tags": [
-      "role",
-      "dare"
+      "role"
     ],
-    "zh": "角色：摄影师和模特。任务：不用拍照，只用语言指导姿势。",
-    "en": "Role: photographer and model. Task: no photo, guide poses with words."
+    "zh": "久别重逢：先抱住 60 秒再说话。",
+    "en": "Long-awaited reunion: hug 60s before words."
   },
   {
-    "id": "r113",
-    "type": "role",
-    "level": 2,
-    "tags": [
-      "role",
-      "dare"
-    ],
-    "zh": "角色：哄睡的人和不想睡的人。任务：用低声说服对方闭眼。",
-    "en": "Role: bedtime coaxer and restless partner. Task: low voice to close eyes."
-  },
-  {
-    "id": "r114",
+    "id": "c069",
     "type": "role",
     "level": 3,
     "tags": [
-      "role",
-      "dare"
+      "role"
     ],
-    "zh": "角色：温柔命令者和乖乖听话者。任务：三条指令，必须可拒绝。",
-    "en": "Role: gentle commander and obedient partner. Task: three rejectable commands."
+    "zh": "老板和乖员工：三条命令，只能小声回答。",
+    "en": "Boss and obedient staff: three commands, low replies only."
   },
   {
-    "id": "r115",
+    "id": "c070",
     "type": "role",
     "level": 3,
     "tags": [
-      "role",
-      "dare"
+      "role"
     ],
-    "zh": "角色：酒吧偶遇。任务：假装第一次见面，把对方撩到笑。",
-    "en": "Role: bar strangers. Task: flirt until they smile."
+    "zh": "摄影师和模特：摆三个亲密但不露脸的姿势。",
+    "en": "Photographer and model: three intimate no-face poses."
   },
   {
-    "id": "r116",
+    "id": "c071",
     "type": "role",
     "level": 3,
     "tags": [
-      "role",
-      "dare"
+      "role"
     ],
-    "zh": "角色：严厉教练和偷懒学生。任务：靠近、暂停、奖励亲吻。",
-    "en": "Role: strict coach and lazy student. Task: approach, pause, reward kiss."
+    "zh": "酒吧陌生人：重新搭讪，但目标是把 TA 带回沙发。",
+    "en": "Bar strangers: flirt again, aim for the sofa."
   },
   {
-    "id": "r117",
+    "id": "c072",
     "type": "role",
     "level": 4,
     "tags": [
-      "role",
-      "dare"
+      "role"
     ],
-    "zh": "角色：强势但会问同意的人。任务：每个命令后都问“可以吗？”",
-    "en": "Role: dominant but asks consent. Task: ask “okay?” after every command."
+    "zh": "医生检查心跳：越检查越近。",
+    "en": "Doctor checks heartbeat: gets closer each time."
   },
   {
-    "id": "r118",
+    "id": "c073",
     "type": "role",
     "level": 4,
     "tags": [
-      "role",
-      "dare"
+      "role"
     ],
-    "zh": "角色：前任复合。任务：说一句后悔，再用行动补偿 60 秒。",
-    "en": "Role: exes making up. Task: say one regret, then make up for 60 seconds."
+    "zh": "坏学生补课：答错一个问题就亲一下。",
+    "en": "Bad student tutoring: wrong answer means a kiss."
   },
   {
-    "id": "r119",
+    "id": "c074",
+    "type": "role",
+    "level": 4,
+    "tags": [
+      "role"
+    ],
+    "zh": "保镖贴身保护：不能离开 TA 半步。",
+    "en": "Bodyguard protection: stay within half a step."
+  },
+  {
+    "id": "c075",
     "type": "role",
     "level": 5,
     "tags": [
-      "role",
-      "dare"
+      "role"
     ],
-    "zh": "角色：今晚你归我管 3 分钟。任务：只做共同 Yes，并保留停止权。",
-    "en": "Role: I lead you for 3 minutes. Task: mutual Yes only, stop right remains."
+    "zh": "命令者和听话的人：2 分钟内只能听三个词。",
+    "en": "Commander and obedient one: only three words for 2 minutes."
   },
   {
-    "id": "r120",
+    "id": "c076",
     "type": "role",
     "level": 5,
     "tags": [
-      "role",
-      "dare"
+      "role"
     ],
-    "zh": "角色：互换主导权。任务：每 90 秒换一次，谁都可以降级。",
-    "en": "Role: switch lead. Task: swap every 90 seconds; anyone can soften."
+    "zh": "前任复合：嘴上不承认，身体要靠近。",
+    "en": "Exes making up: words deny, body moves close."
   },
   {
-    "id": "p121",
+    "id": "c077",
     "type": "prop",
     "level": 2,
     "tags": [
-      "prop"
+      "prop",
+      "props"
     ],
-    "zh": "眼罩：蒙眼者只说“继续/慢点/停”，另一方用声音和触碰引导 60 秒。",
-    "en": "Blindfold: covered partner says continue/slower/stop while the other guides for 60 seconds."
+    "zh": "眼罩 60 秒，只能用声音说舒服/慢点/停。",
+    "en": "Blindfold 60s; voice only: good/slower/stop."
   },
   {
-    "id": "p122",
+    "id": "c078",
     "type": "prop",
     "level": 2,
     "tags": [
-      "prop"
+      "prop",
+      "props"
     ],
-    "zh": "镜子：站在镜前各夸对方一个让你想靠近的细节。",
-    "en": "Mirror: each compliments one detail that pulls you closer."
+    "zh": "镜子前拥抱 60 秒，说一个看到的性感细节。",
+    "en": "Mirror hug 60s; name one sexy detail."
   },
   {
-    "id": "p123",
-    "type": "prop",
-    "level": 2,
-    "tags": [
-      "prop"
-    ],
-    "zh": "丝巾：用丝巾在手臂/肩颈画路线，让对方猜终点。",
-    "en": "Scarf: trace a route on arm/neck and let partner guess the endpoint."
-  },
-  {
-    "id": "p124",
-    "type": "prop",
-    "level": 2,
-    "tags": [
-      "prop"
-    ],
-    "zh": "音乐：选一首最暧昧的歌，整首歌期间不看手机。",
-    "en": "Music: choose a flirty song and do not check phones during it."
-  },
-  {
-    "id": "p125",
+    "id": "c079",
     "type": "prop",
     "level": 3,
     "tags": [
-      "prop"
+      "prop",
+      "props"
     ],
-    "zh": "冰块：触碰 10 秒，再用亲吻或掌心暖回来。",
-    "en": "Ice: touch for 10 seconds, then warm back with kiss or palm."
+    "zh": "冰块在锁骨附近轻轻停 10 秒。",
+    "en": "Ice near collarbone for 10s."
   },
   {
-    "id": "p126",
+    "id": "c080",
     "type": "prop",
     "level": 3,
     "tags": [
-      "prop"
+      "prop",
+      "props"
     ],
-    "zh": "按摩油：肩颈到后背 2 分钟，接收方随时调力度。",
-    "en": "Massage oil: neck to back for 2 minutes; receiver controls pressure."
+    "zh": "口红在不露脸的位置画一个小记号。",
+    "en": "Lipstick mark somewhere private."
   },
   {
-    "id": "p127",
+    "id": "c081",
     "type": "prop",
     "level": 3,
     "tags": [
-      "prop"
+      "prop",
+      "props"
     ],
-    "zh": "纸条：各写一个命令，抽到的人可以执行、改轻或跳过。",
-    "en": "Notes: each writes a command; drawn partner may do, soften, or skip."
+    "zh": "丝巾画路线：从手腕到肩颈。",
+    "en": "Scarf route from wrist to neck."
   },
   {
-    "id": "p128",
-    "type": "prop",
-    "level": 3,
-    "tags": [
-      "prop"
-    ],
-    "zh": "氛围灯：把灯调暗，然后重新抽一张更大胆的卡。",
-    "en": "Mood light: dim lights, then draw one bolder card."
-  },
-  {
-    "id": "p129",
+    "id": "c082",
     "type": "prop",
     "level": 4,
     "tags": [
-      "prop"
+      "prop",
+      "props"
     ],
-    "zh": "玩具：只在边界清单双方 Yes 时加入，否则换成按摩/亲吻任务。",
-    "en": "Toy: only if mutual Yes in boundaries; otherwise replace with massage/kiss."
+    "zh": "丝巾轻轻限制一只手 90 秒，不打结死。",
+    "en": "Softly restrain one wrist with scarf for 90s; no tight knots."
   },
   {
-    "id": "p130",
+    "id": "c083",
     "type": "prop",
     "level": 4,
     "tags": [
-      "prop"
+      "prop",
+      "props"
     ],
-    "zh": "本地相机：只拍不露脸、不暴露隐私的氛围照；任一方可要求删除。",
-    "en": "Local camera: no-face, privacy-safe mood photo; either can ask deletion."
+    "zh": "衬衫/浴袍局：只允许解开一个位置。",
+    "en": "Shirt/robe round: undo one spot only."
   },
   {
-    "id": "p131",
-    "type": "prop",
-    "level": 4,
-    "tags": [
-      "prop"
-    ],
-    "zh": "浴室道具：只做洗手、热水、拥抱或双方 Yes 的浴室互动。",
-    "en": "Shower supplies: handwash, warm water, hug, or mutual Yes bathroom play only."
-  },
-  {
-    "id": "p132",
+    "id": "c084",
     "type": "prop",
     "level": 5,
     "tags": [
-      "prop"
+      "prop",
+      "props"
     ],
-    "zh": "保护用品确认：确认安全套/润滑/清洁齐全后，才能进入更成人的共同 Yes。",
-    "en": "Protection check: confirm condoms/lube/clean-up before more adult mutual Yes."
+    "zh": "小玩具只有双方 Yes 才加入，先说明规则再开始。",
+    "en": "Toy only if mutual Yes; state rules before starting."
   },
   {
-    "id": "p133",
+    "id": "c085",
     "type": "pose",
     "level": 2,
     "tags": [
       "pose"
     ],
-    "zh": "面对面坐近，膝盖相碰，30 秒只看不亲。",
-    "en": "Sit face-to-face, knees touching; look only, no kissing for 30 seconds."
+    "zh": "沙发膝上拥抱 60 秒。",
+    "en": "Lap cuddle on sofa for 60s."
   },
   {
-    "id": "p134",
+    "id": "c086",
     "type": "pose",
     "level": 2,
     "tags": [
       "pose"
     ],
-    "zh": "背后抱坐姿，主导方只用声音引导呼吸。",
-    "en": "Seated back hug; leader guides breathing with voice only."
+    "zh": "背后抱站姿 45 秒。",
+    "en": "Standing back hug 45s."
   },
   {
-    "id": "p135",
-    "type": "pose",
-    "level": 2,
-    "tags": [
-      "pose"
-    ],
-    "zh": "并肩靠在一起，各说一个想被触碰的位置。",
-    "en": "Sit shoulder to shoulder and name one wanted touch area."
-  },
-  {
-    "id": "p136",
+    "id": "c087",
     "type": "pose",
     "level": 3,
     "tags": [
       "pose"
     ],
-    "zh": "坐腿拥抱 60 秒，接受方决定手放哪里。",
-    "en": "Lap cuddle for 60 seconds; receiver decides hand placement."
+    "zh": "床边坐着深吻 60 秒。",
+    "en": "Bedside seated deep kiss 60s."
   },
   {
-    "id": "p137",
+    "id": "c088",
     "type": "pose",
     "level": 3,
     "tags": [
       "pose"
     ],
-    "zh": "镜前贴近站立，轮流夸对方身材/气味/眼神。",
-    "en": "Stand close at mirror; take turns praising body, scent or eyes."
+    "zh": "镜前贴身站 45 秒。",
+    "en": "Stand close at mirror for 45s."
   },
   {
-    "id": "p138",
-    "type": "pose",
-    "level": 3,
-    "tags": [
-      "pose"
-    ],
-    "zh": "一人靠墙，一人慢慢靠近；靠近前必须等点头。",
-    "en": "One against wall, one approaches slowly; wait for a nod first."
-  },
-  {
-    "id": "p139",
+    "id": "c089",
     "type": "pose",
     "level": 4,
     "tags": [
       "pose"
     ],
-    "zh": "床边/沙发边，一方坐着一方站着，完成 90 秒指令游戏。",
-    "en": "Bed/sofa edge: one sits, one stands; 90-second command game."
+    "zh": "一方靠墙，一方慢慢靠近。",
+    "en": "One against the wall, one slowly approaches."
   },
   {
-    "id": "p140",
+    "id": "c090",
     "type": "pose",
     "level": 4,
     "tags": [
       "pose"
     ],
-    "zh": "面对面跨坐或替代姿势，必须每 30 秒确认舒适。",
-    "en": "Face-to-face straddle or alternative pose; check comfort every 30 seconds."
+    "zh": "沙发限定：不能站起来完成下一张。",
+    "en": "Sofa-only: next card without standing."
   },
   {
-    "id": "p141",
+    "id": "c091",
     "type": "pose",
     "level": 5,
     "tags": [
       "pose"
     ],
-    "zh": "共同 Yes 的成人姿势讨论：先说边界，再决定执行或只收藏。",
-    "en": "Discuss a mutual Yes adult pose: state boundaries, then do or save only."
+    "zh": "由对方摆一个双方都舒服的成人姿势，保持 60 秒。",
+    "en": "Partner sets a comfortable adult pose; hold 60s."
   },
   {
-    "id": "p142",
+    "id": "c092",
     "type": "pose",
     "level": 5,
     "tags": [
       "pose"
     ],
-    "zh": "热辣姿势 2 分钟：只做双方明确 Yes，结束马上补水复盘。",
-    "en": "Hot pose for 2 minutes: explicit mutual Yes only, then water and check-in."
+    "zh": "今晚最喜欢的姿势复刻一次。",
+    "en": "Repeat tonight's favorite position once."
   },
   {
-    "id": "a143",
+    "id": "c093",
     "type": "aftercare",
     "level": 1,
     "tags": [
       "aftercare",
       "care"
     ],
-    "zh": "抱抱一分钟，不评价表现，只说“谢谢你”。",
-    "en": "Hug for one minute; no performance talk, just say thank you."
+    "zh": "抱抱一分钟，谁都不看手机。",
+    "en": "Cuddle one minute, no phones."
   },
   {
-    "id": "a144",
+    "id": "c094",
     "type": "aftercare",
     "level": 1,
     "tags": [
       "aftercare",
       "care"
     ],
-    "zh": "各喝一口水，问对方身体有没有不舒服。",
-    "en": "Drink water and ask if anything feels off."
+    "zh": "喝水，问一句：刚才舒服吗？",
+    "en": "Drink water and ask: was that comfortable?"
   },
   {
-    "id": "a145",
+    "id": "c095",
     "type": "aftercare",
     "level": 1,
     "tags": [
       "aftercare",
       "care"
     ],
-    "zh": "说一个今晚最喜欢的瞬间。",
+    "zh": "说出今晚最喜欢的一个瞬间。",
     "en": "Name your favorite moment tonight."
   },
   {
-    "id": "a146",
+    "id": "c096",
     "type": "aftercare",
     "level": 1,
     "tags": [
       "aftercare",
       "care"
     ],
-    "zh": "整理现场，让空间回到舒服状态。",
-    "en": "Tidy up and make the room comfortable again."
+    "zh": "夸 TA 一个具体反应。",
+    "en": "Praise one specific reaction."
   },
   {
-    "id": "a147",
+    "id": "c097",
     "type": "aftercare",
     "level": 1,
     "tags": [
       "aftercare",
       "care"
     ],
-    "zh": "亲额头收尾，然后停止抽卡。",
-    "en": "Forehead kiss to close, then stop drawing cards."
+    "zh": "说一个下次想继续玩的点。",
+    "en": "Name one thing to try again next time."
   },
   {
-    "id": "a148",
+    "id": "c098",
+    "type": "aftercare",
+    "level": 1,
+    "tags": [
+      "aftercare",
+      "care"
+    ],
+    "zh": "确认没有不舒服、没有后悔。",
+    "en": "Check there is no discomfort or regret."
+  },
+  {
+    "id": "c099",
     "type": "aftercare",
     "level": 2,
     "tags": [
       "aftercare",
       "care"
     ],
-    "zh": "复盘：一个喜欢、一个下次想调整、一个还想再玩。",
-    "en": "Check-in: one liked thing, one adjustment, one repeat."
+    "zh": "如果刚才太猛，下一轮自动降一级。",
+    "en": "If that was too much, lower one level next."
   },
   {
-    "id": "a149",
+    "id": "c100",
     "type": "aftercare",
     "level": 2,
     "tags": [
       "aftercare",
       "care"
     ],
-    "zh": "把刚才让人犹豫的内容降级或加入 No。",
-    "en": "Downgrade or mark as No anything that caused hesitation."
+    "zh": "亲额头，把人抱回来。",
+    "en": "Forehead kiss and bring them back close."
   },
   {
-    "id": "a150",
+    "id": "c101",
     "type": "aftercare",
     "level": 2,
     "tags": [
       "aftercare",
       "care"
     ],
-    "zh": "给对方盖毯子，安静靠 2 分钟。",
-    "en": "Cover your partner with a blanket and rest quietly for 2 minutes."
+    "zh": "安静躺 2 分钟。",
+    "en": "Lie quietly for 2 minutes."
   },
   {
-    "id": "a151",
+    "id": "c102",
     "type": "aftercare",
     "level": 2,
     "tags": [
       "aftercare",
       "care"
     ],
-    "zh": "删除任何一方不想保留的照片/声音/记录。",
-    "en": "Delete any media or records either person dislikes."
+    "zh": "今晚到这里：抱着结束。",
+    "en": "End here, held close."
   },
   {
-    "id": "a152",
-    "type": "aftercare",
+    "id": "c103",
+    "type": "touch",
+    "level": 2,
+    "tags": [
+      "touch",
+      "tease"
+    ],
+    "zh": "在耳边停留 30 秒，重点是慢，不是急。",
+    "en": "Stay around ear for 30s; slow, not rushed."
+  },
+  {
+    "id": "c104",
+    "type": "kiss",
+    "level": 2,
+    "tags": [
+      "kiss",
+      "tease"
+    ],
+    "zh": "亲吻耳边附近，亲一下就退开，重复三次。",
+    "en": "Kiss near ear, pull away, repeat three times."
+  },
+  {
+    "id": "c105",
+    "type": "touch",
+    "level": 2,
+    "tags": [
+      "touch",
+      "tease"
+    ],
+    "zh": "在后颈停留 30 秒，重点是慢，不是急。",
+    "en": "Stay around back of neck for 30s; slow, not rushed."
+  },
+  {
+    "id": "c106",
+    "type": "kiss",
+    "level": 2,
+    "tags": [
+      "kiss",
+      "tease"
+    ],
+    "zh": "亲吻后颈附近，亲一下就退开，重复三次。",
+    "en": "Kiss near back of neck, pull away, repeat three times."
+  },
+  {
+    "id": "c107",
+    "type": "touch",
+    "level": 2,
+    "tags": [
+      "touch",
+      "tease"
+    ],
+    "zh": "在锁骨停留 30 秒，重点是慢，不是急。",
+    "en": "Stay around collarbone for 30s; slow, not rushed."
+  },
+  {
+    "id": "c108",
+    "type": "kiss",
+    "level": 2,
+    "tags": [
+      "kiss",
+      "tease"
+    ],
+    "zh": "亲吻锁骨附近，亲一下就退开，重复三次。",
+    "en": "Kiss near collarbone, pull away, repeat three times."
+  },
+  {
+    "id": "c109",
+    "type": "touch",
+    "level": 2,
+    "tags": [
+      "touch",
+      "tease"
+    ],
+    "zh": "在腰侧停留 30 秒，重点是慢，不是急。",
+    "en": "Stay around waist for 30s; slow, not rushed."
+  },
+  {
+    "id": "c110",
+    "type": "kiss",
+    "level": 2,
+    "tags": [
+      "kiss",
+      "tease"
+    ],
+    "zh": "亲吻腰侧附近，亲一下就退开，重复三次。",
+    "en": "Kiss near waist, pull away, repeat three times."
+  },
+  {
+    "id": "c111",
+    "type": "touch",
+    "level": 4,
+    "tags": [
+      "touch",
+      "tease"
+    ],
+    "zh": "在大腿外侧停留 30 秒，重点是慢，不是急。",
+    "en": "Stay around outer thigh for 30s; slow, not rushed."
+  },
+  {
+    "id": "c112",
+    "type": "kiss",
+    "level": 4,
+    "tags": [
+      "kiss",
+      "tease"
+    ],
+    "zh": "亲吻大腿外侧附近，亲一下就退开，重复三次。",
+    "en": "Kiss near outer thigh, pull away, repeat three times."
+  },
+  {
+    "id": "c113",
+    "type": "touch",
+    "level": 4,
+    "tags": [
+      "touch",
+      "tease"
+    ],
+    "zh": "在大腿内侧停留 30 秒，重点是慢，不是急。",
+    "en": "Stay around inner thigh for 30s; slow, not rushed."
+  },
+  {
+    "id": "c114",
+    "type": "kiss",
+    "level": 4,
+    "tags": [
+      "kiss",
+      "tease"
+    ],
+    "zh": "亲吻大腿内侧附近，亲一下就退开，重复三次。",
+    "en": "Kiss near inner thigh, pull away, repeat three times."
+  },
+  {
+    "id": "c115",
+    "type": "touch",
+    "level": 4,
+    "tags": [
+      "touch",
+      "tease"
+    ],
+    "zh": "在胸口附近停留 30 秒，重点是慢，不是急。",
+    "en": "Stay around chest area for 30s; slow, not rushed."
+  },
+  {
+    "id": "c116",
+    "type": "kiss",
+    "level": 4,
+    "tags": [
+      "kiss",
+      "tease"
+    ],
+    "zh": "亲吻胸口附近附近，亲一下就退开，重复三次。",
+    "en": "Kiss near chest area, pull away, repeat three times."
+  },
+  {
+    "id": "c117",
+    "type": "touch",
+    "level": 4,
+    "tags": [
+      "touch",
+      "tease"
+    ],
+    "zh": "在臀部附近停留 30 秒，重点是慢，不是急。",
+    "en": "Stay around butt area for 30s; slow, not rushed."
+  },
+  {
+    "id": "c118",
+    "type": "kiss",
+    "level": 4,
+    "tags": [
+      "kiss",
+      "tease"
+    ],
+    "zh": "亲吻臀部附近附近，亲一下就退开，重复三次。",
+    "en": "Kiss near butt area, pull away, repeat three times."
+  },
+  {
+    "id": "c119",
+    "type": "touch",
+    "level": 5,
+    "tags": [
+      "touch",
+      "tease"
+    ],
+    "zh": "在双方 Yes 的敏感处停留 30 秒，重点是慢，不是急。",
+    "en": "Stay around mutual-Yes sensitive spot for 30s; slow, not rushed."
+  },
+  {
+    "id": "c120",
+    "type": "kiss",
+    "level": 5,
+    "tags": [
+      "kiss",
+      "tease"
+    ],
+    "zh": "亲吻双方 Yes 的敏感处附近，亲一下就退开，重复三次。",
+    "en": "Kiss near mutual-Yes sensitive spot, pull away, repeat three times."
+  },
+  {
+    "id": "c121",
+    "type": "dirty",
+    "level": 4,
+    "tags": [
+      "dirty",
+      "talk"
+    ],
+    "zh": "贴耳说：我想听你求我继续。说完亲一下。",
+    "en": "Whisper: I want to hear you ask me to continue. Then kiss once."
+  },
+  {
+    "id": "c122",
+    "type": "dirty",
+    "level": 4,
+    "tags": [
+      "dirty",
+      "talk"
+    ],
+    "zh": "贴耳说：今晚别装乖。说完亲一下。",
+    "en": "Whisper: Do not pretend to be good tonight. Then kiss once."
+  },
+  {
+    "id": "c123",
+    "type": "dirty",
+    "level": 4,
+    "tags": [
+      "dirty",
+      "talk"
+    ],
+    "zh": "贴耳说：你越害羞我越想逗你。说完亲一下。",
+    "en": "Whisper: The shyer you get, the more I want to tease you. Then kiss once."
+  },
+  {
+    "id": "c124",
+    "type": "dirty",
+    "level": 4,
+    "tags": [
+      "dirty",
+      "talk"
+    ],
+    "zh": "贴耳说：靠近点，我还没允许你退开。说完亲一下。",
+    "en": "Whisper: Come closer; I did not allow you to pull away. Then kiss once."
+  },
+  {
+    "id": "c125",
+    "type": "dirty",
+    "level": 4,
+    "tags": [
+      "dirty",
+      "talk"
+    ],
+    "zh": "贴耳说：说你想要哪一种。说完亲一下。",
+    "en": "Whisper: Tell me which kind you want. Then kiss once."
+  },
+  {
+    "id": "c126",
+    "type": "dare",
+    "level": 2,
+    "tags": [
+      "wheel",
+      "tease"
+    ],
+    "zh": "十秒对视，谁先笑谁输",
+    "en": "Eye contact 10s; first smile loses"
+  },
+  {
+    "id": "c127",
+    "type": "dare",
+    "level": 2,
+    "tags": [
+      "wheel",
+      "tease"
+    ],
+    "zh": "贴耳说一句今天最想听的话",
+    "en": "Whisper what you want to hear tonight"
+  },
+  {
+    "id": "c128",
+    "type": "dare",
+    "level": 2,
+    "tags": [
+      "wheel",
+      "tease"
+    ],
+    "zh": "亲嘴角三下，第三下停住",
+    "en": "Kiss the corner of the mouth three times, stop on the third"
+  },
+  {
+    "id": "c129",
+    "type": "dare",
+    "level": 2,
+    "tags": [
+      "wheel",
+      "tease"
+    ],
+    "zh": "从背后抱住 30 秒",
+    "en": "Back hug for 30s"
+  },
+  {
+    "id": "c130",
+    "type": "dare",
+    "level": 2,
+    "tags": [
+      "wheel",
+      "tease"
+    ],
+    "zh": "让 TA 坐近一点，不准解释",
+    "en": "Ask them to sit closer, no explaining"
+  },
+  {
+    "id": "c131",
+    "type": "dare",
+    "level": 2,
+    "tags": [
+      "wheel",
+      "tease"
+    ],
+    "zh": "用手指从手腕慢慢滑到肩膀",
+    "en": "Slide fingers from wrist to shoulder"
+  },
+  {
+    "id": "c132",
+    "type": "dare",
+    "level": 2,
+    "tags": [
+      "wheel",
+      "tease"
+    ],
+    "zh": "亲锁骨附近一下就退开",
+    "en": "Kiss near the collarbone then pull away"
+  },
+  {
+    "id": "c133",
+    "type": "dare",
+    "level": 2,
+    "tags": [
+      "wheel",
+      "tease"
+    ],
+    "zh": "说一句：今晚你归我管",
+    "en": "Say: tonight I take care of you"
+  },
+  {
+    "id": "c134",
+    "type": "dare",
+    "level": 2,
+    "tags": [
+      "wheel",
+      "tease"
+    ],
+    "zh": "选一个位置，只亲不碰 20 秒",
+    "en": "Pick one spot: kiss only, no hands, 20s"
+  },
+  {
+    "id": "c135",
+    "type": "dare",
+    "level": 2,
+    "tags": [
+      "wheel",
+      "tease"
+    ],
+    "zh": "把灯调暗，重新靠近",
+    "en": "Dim the lights and move close again"
+  },
+  {
+    "id": "c136",
+    "type": "dare",
+    "level": 2,
+    "tags": [
+      "wheel",
+      "tease"
+    ],
+    "zh": "把手机放远，专心看 TA",
+    "en": "Put phones away and focus"
+  },
+  {
+    "id": "c137",
+    "type": "dare",
+    "level": 2,
+    "tags": [
+      "wheel",
+      "tease"
+    ],
+    "zh": "给 TA 一个今晚专属称呼",
+    "en": "Give tonight-only nickname"
+  },
+  {
+    "id": "c138",
+    "type": "dare",
     "level": 3,
     "tags": [
-      "aftercare",
-      "care"
+      "wheel",
+      "heat"
     ],
-    "zh": "写下下次想试的 3 个 Yes 和 1 个 No。",
-    "en": "Write three next-time Yes items and one No."
+    "zh": "深吻一分钟，不许敷衍",
+    "en": "Deep kiss for one minute, no half-effort"
   },
   {
-    "id": "a153",
-    "type": "aftercare",
+    "id": "c139",
+    "type": "dare",
     "level": 3,
     "tags": [
-      "aftercare",
-      "care"
+      "wheel",
+      "heat"
     ],
-    "zh": "如果刚才很强烈，做 5 次深呼吸，再决定是否继续。",
-    "en": "If it was intense, take 5 deep breaths before continuing."
+    "zh": "坐到对方腿上 60 秒",
+    "en": "Sit on partner's lap for 60s"
   },
   {
-    "id": "a154",
-    "type": "aftercare",
+    "id": "c140",
+    "type": "dare",
     "level": 3,
     "tags": [
-      "aftercare",
-      "care"
+      "wheel",
+      "heat"
     ],
-    "zh": "用日常称呼叫对方，把角色感彻底结束。",
-    "en": "Use everyday names to fully end any role play."
+    "zh": "隔着衣物慢慢摸到 TA 说停",
+    "en": "Touch slowly over clothes until they say stop"
+  },
+  {
+    "id": "c141",
+    "type": "dare",
+    "level": 3,
+    "tags": [
+      "wheel",
+      "heat"
+    ],
+    "zh": "贴着耳朵说一句下流情话",
+    "en": "Whisper one dirty sweet line"
+  },
+  {
+    "id": "c142",
+    "type": "dare",
+    "level": 3,
+    "tags": [
+      "wheel",
+      "heat"
+    ],
+    "zh": "让 TA 指定你亲哪里",
+    "en": "Partner chooses where you kiss"
+  },
+  {
+    "id": "c143",
+    "type": "dare",
+    "level": 3,
+    "tags": [
+      "wheel",
+      "heat"
+    ],
+    "zh": "衣角/领口慢慢解开一处",
+    "en": "Slowly undo one outer layer"
+  },
+  {
+    "id": "c144",
+    "type": "dare",
+    "level": 3,
+    "tags": [
+      "wheel",
+      "heat"
+    ],
+    "zh": "脖颈到锁骨连续亲 45 秒",
+    "en": "Neck to collarbone kisses for 45s"
+  },
+  {
+    "id": "c145",
+    "type": "dare",
+    "level": 3,
+    "tags": [
+      "wheel",
+      "heat"
+    ],
+    "zh": "闭眼接受三个触碰并猜位置",
+    "en": "Eyes closed: guess three touches"
+  },
+  {
+    "id": "c146",
+    "type": "dare",
+    "level": 3,
+    "tags": [
+      "wheel",
+      "heat"
+    ],
+    "zh": "只准用气息撩，不准亲 30 秒",
+    "en": "Use breath only, no kiss, 30s"
+  },
+  {
+    "id": "c147",
+    "type": "dare",
+    "level": 3,
+    "tags": [
+      "wheel",
+      "heat"
+    ],
+    "zh": "你来主导 2 分钟，对方只能反馈",
+    "en": "You lead for 2 minutes; partner only gives feedback"
+  },
+  {
+    "id": "c148",
+    "type": "dare",
+    "level": 3,
+    "tags": [
+      "wheel",
+      "heat"
+    ],
+    "zh": "抽到的人说出今晚最想试的玩法",
+    "en": "Say what you want to try tonight"
+  },
+  {
+    "id": "c149",
+    "type": "dare",
+    "level": 3,
+    "tags": [
+      "wheel",
+      "heat"
+    ],
+    "zh": "把下一轮强度升一级",
+    "en": "Raise heat one level next round"
+  },
+  {
+    "id": "c150",
+    "type": "dare",
+    "level": 5,
+    "tags": [
+      "wheel",
+      "wild"
+    ],
+    "zh": "双方都 Yes 的敏感处停留 90 秒",
+    "en": "Mutual-Yes sensitive spot for 90s"
+  },
+  {
+    "id": "c151",
+    "type": "dare",
+    "level": 5,
+    "tags": [
+      "wheel",
+      "wild"
+    ],
+    "zh": "让对方写一条命令，你照做",
+    "en": "Partner writes one command; follow it"
+  },
+  {
+    "id": "c152",
+    "type": "dare",
+    "level": 5,
+    "tags": [
+      "wheel",
+      "wild"
+    ],
+    "zh": "只准说：继续、慢点、停",
+    "en": "Only say: continue, slower, stop"
+  },
+  {
+    "id": "c153",
+    "type": "dare",
+    "level": 5,
+    "tags": [
+      "wheel",
+      "wild"
+    ],
+    "zh": "衣物内触碰 60 秒，随时可停",
+    "en": "Under-clothes touch for 60s; stop anytime"
+  },
+  {
+    "id": "c154",
+    "type": "dare",
+    "level": 5,
+    "tags": [
+      "wheel",
+      "wild"
+    ],
+    "zh": "镜子前说一句最露骨的夸奖",
+    "en": "Mirror: give one explicit compliment"
   },
   {
     "id": "c155",
-    "type": "care",
-    "level": 1,
+    "type": "dare",
+    "level": 5,
     "tags": [
-      "care",
-      "listen"
+      "wheel",
+      "wild"
     ],
-    "zh": "确认今晚安全词：说出来，并约定手势。",
-    "en": "Confirm tonight’s safeword and gesture."
+    "zh": "让 TA 指定一个更大胆的位置",
+    "en": "Partner chooses a bolder spot"
   },
   {
     "id": "c156",
-    "type": "care",
-    "level": 1,
+    "type": "dare",
+    "level": 5,
     "tags": [
-      "care",
-      "listen"
+      "wheel",
+      "wild"
     ],
-    "zh": "每人说一个绝对 No，先保护体验。",
-    "en": "Each names one absolute No."
+    "zh": "靠近到对方主动开口为止",
+    "en": "Move close until partner asks for more"
   },
   {
     "id": "c157",
-    "type": "care",
-    "level": 1,
+    "type": "dare",
+    "level": 5,
     "tags": [
-      "care",
-      "listen"
+      "wheel",
+      "wild"
     ],
-    "zh": "问：“你现在舒适度 1 到 5 是几？”低于 4 就降级。",
-    "en": "Ask comfort 1-5; below 4 means downgrade."
+    "zh": "三分钟内由一方完全主导节奏",
+    "en": "One partner controls the rhythm for 3 minutes"
   },
   {
     "id": "c158",
-    "type": "care",
-    "level": 2,
+    "type": "dare",
+    "level": 5,
     "tags": [
-      "care",
-      "listen"
+      "wheel",
+      "wild"
     ],
-    "zh": "由 {receiver} 连续给三个小指令，{giver} 只练习听话。",
-    "en": "{receiver} gives three small commands; {giver} practices listening."
+    "zh": "说出一个一直不好意思说的幻想",
+    "en": "Say a fantasy you usually hide"
   },
   {
     "id": "c159",
-    "type": "care",
-    "level": 2,
+    "type": "dare",
+    "level": 5,
     "tags": [
-      "care",
-      "listen"
+      "wheel",
+      "wild"
     ],
-    "zh": "暂停 30 秒，只抱不碰敏感区域。",
-    "en": "Pause 30 seconds; hug without sensitive touch."
+    "zh": "亲到对方主动抱紧你",
+    "en": "Kiss until they pull you closer"
   },
   {
     "id": "c160",
-    "type": "care",
-    "level": 2,
+    "type": "dare",
+    "level": 5,
     "tags": [
-      "care",
-      "listen"
+      "wheel",
+      "wild"
     ],
-    "zh": "交换主导前，先问“你想继续还是换温柔？”",
-    "en": "Before switching lead, ask “continue or soften?”"
+    "zh": "加码：下一轮不能换题",
+    "en": "Next round cannot be swapped"
   },
   {
     "id": "c161",
-    "type": "care",
-    "level": 3,
+    "type": "dare",
+    "level": 5,
     "tags": [
-      "care",
-      "listen"
+      "wheel",
+      "wild"
     ],
-    "zh": "热辣前检查：清醒、自愿、保护用品、清洁、隐私。",
-    "en": "Before hot play check: sober, willing, protection, clean-up, privacy."
+    "zh": "热辣 5 分钟后必须补水抱抱",
+    "en": "Hot 5 minutes, then water and cuddle"
   },
   {
     "id": "c162",
-    "type": "care",
-    "level": 3,
-    "tags": [
-      "care",
-      "listen"
-    ],
-    "zh": "任何一方说停后，另一方只能回答“好，我在”。",
-    "en": "When one says stop, the other only replies, “Okay, I’m here.”"
-  },
-  {
-    "id": "t163",
-    "type": "truth",
-    "level": 3,
-    "tags": [
-      "truth",
-      "spark"
-    ],
-    "zh": "被我盯着看时，你最真实的第一反应是什么？",
-    "en": "When 被我盯着看时, what is your honest first reaction?"
-  },
-  {
-    "id": "t164",
-    "type": "truth",
+    "type": "role",
     "level": 4,
     "tags": [
-      "truth",
-      "spark"
+      "wheel",
+      "role"
     ],
-    "zh": "我从背后抱你时，你最真实的第一反应是什么？",
-    "en": "When 我从背后抱你时, what is your honest first reaction?"
+    "zh": "冷淡老板 / 乖员工，三条命令",
+    "en": "Cold boss / obedient staff: three commands"
   },
   {
-    "id": "t165",
-    "type": "truth",
-    "level": 5,
-    "tags": [
-      "truth",
-      "spark"
-    ],
-    "zh": "我忽然停下时，你最真实的第一反应是什么？",
-    "en": "When 我忽然停下时, what is your honest first reaction?"
-  },
-  {
-    "id": "t166",
-    "type": "truth",
-    "level": 2,
-    "tags": [
-      "truth",
-      "spark"
-    ],
-    "zh": "我用更低声音说话时，你最真实的第一反应是什么？",
-    "en": "When 我用更低声音说话时, what is your honest first reaction?"
-  },
-  {
-    "id": "t167",
-    "type": "truth",
-    "level": 3,
-    "tags": [
-      "truth",
-      "spark"
-    ],
-    "zh": "我让你等一下时，你最真实的第一反应是什么？",
-    "en": "When 我让你等一下时, what is your honest first reaction?"
-  },
-  {
-    "id": "t168",
-    "type": "truth",
+    "id": "c163",
+    "type": "role",
     "level": 4,
     "tags": [
-      "truth",
-      "spark"
+      "wheel",
+      "role"
     ],
-    "zh": "我问你要不要继续时，你最真实的第一反应是什么？",
-    "en": "When 我问你要不要继续时, what is your honest first reaction?"
+    "zh": "深夜查房 / 装睡的人",
+    "en": "Late-night room check / pretending to sleep"
   },
   {
-    "id": "t169",
-    "type": "truth",
-    "level": 5,
-    "tags": [
-      "truth",
-      "spark"
-    ],
-    "zh": "我把灯调暗时，你最真实的第一反应是什么？",
-    "en": "When 我把灯调暗时, what is your honest first reaction?"
-  },
-  {
-    "id": "t170",
-    "type": "truth",
-    "level": 2,
-    "tags": [
-      "truth",
-      "spark"
-    ],
-    "zh": "我慢慢靠近时，你最真实的第一反应是什么？",
-    "en": "When 我慢慢靠近时, what is your honest first reaction?"
-  },
-  {
-    "id": "d171",
-    "type": "dare",
-    "level": 3,
-    "tags": [
-      "dare",
-      "touch"
-    ],
-    "zh": "围绕“手腕”完成一个 45 秒任务：先问同意，再慢慢来。",
-    "en": "Build a 45-second task around 手腕: ask consent first, then go slowly."
-  },
-  {
-    "id": "d172",
-    "type": "dare",
+    "id": "c164",
+    "type": "role",
     "level": 4,
     "tags": [
-      "dare",
-      "touch"
+      "wheel",
+      "role"
     ],
-    "zh": "围绕“耳边”完成一个 45 秒任务：先问同意，再慢慢来。",
-    "en": "Build a 45-second task around 耳边: ask consent first, then go slowly."
+    "zh": "第一次约会后，不小心靠太近",
+    "en": "After first date, too close by accident"
   },
   {
-    "id": "d173",
-    "type": "dare",
-    "level": 5,
+    "id": "c165",
+    "type": "role",
+    "level": 4,
     "tags": [
-      "dare",
-      "touch"
+      "wheel",
+      "role"
     ],
-    "zh": "围绕“肩颈”完成一个 45 秒任务：先问同意，再慢慢来。",
-    "en": "Build a 45-second task around 肩颈: ask consent first, then go slowly."
+    "zh": "前任复合，嘴硬但身体诚实",
+    "en": "Exes making up, words deny, body admits"
   },
   {
-    "id": "d174",
-    "type": "dare",
-    "level": 2,
+    "id": "c166",
+    "type": "role",
+    "level": 4,
     "tags": [
-      "dare",
-      "touch"
+      "wheel",
+      "role"
     ],
-    "zh": "围绕“腰侧”完成一个 45 秒任务：先问同意，再慢慢来。",
-    "en": "Build a 45-second task around 腰侧: ask consent first, then go slowly."
+    "zh": "摄影师和模特，镜前指导姿势",
+    "en": "Photographer and model, mirror directions"
   },
   {
-    "id": "d175",
-    "type": "dare",
-    "level": 3,
+    "id": "c167",
+    "type": "role",
+    "level": 4,
     "tags": [
-      "dare",
-      "touch"
+      "wheel",
+      "role"
     ],
-    "zh": "围绕“后背”完成一个 45 秒任务：先问同意，再慢慢来。",
-    "en": "Build a 45-second task around 后背: ask consent first, then go slowly."
+    "zh": "坏学生被留下补课",
+    "en": "Bad student kept after class"
   },
   {
-    "id": "d176",
+    "id": "c168",
+    "type": "role",
+    "level": 4,
+    "tags": [
+      "wheel",
+      "role"
+    ],
+    "zh": "酒吧偶遇，假装第一次认识",
+    "en": "Bar strangers meeting again"
+  },
+  {
+    "id": "c169",
+    "type": "role",
+    "level": 4,
+    "tags": [
+      "wheel",
+      "role"
+    ],
+    "zh": "霸道但会问同意的恋人",
+    "en": "Dominant lover who still asks yes"
+  },
+  {
+    "id": "c170",
+    "type": "role",
+    "level": 4,
+    "tags": [
+      "wheel",
+      "role"
+    ],
+    "zh": "保镖和大小姐，贴身保护",
+    "en": "Bodyguard and heiress, close protection"
+  },
+  {
+    "id": "c171",
+    "type": "role",
+    "level": 4,
+    "tags": [
+      "wheel",
+      "role"
+    ],
+    "zh": "医生检查心跳，越查越近",
+    "en": "Doctor checks heartbeat, too close"
+  },
+  {
+    "id": "c172",
+    "type": "role",
+    "level": 4,
+    "tags": [
+      "wheel",
+      "role"
+    ],
+    "zh": "只听三个口令，不能多问",
+    "en": "Only three commands, no questions"
+  },
+  {
+    "id": "c173",
+    "type": "role",
+    "level": 4,
+    "tags": [
+      "wheel",
+      "role"
+    ],
+    "zh": "角色结束后必须抱抱 30 秒",
+    "en": "End role with a 30s cuddle"
+  },
+  {
+    "id": "c174",
     "type": "dare",
     "level": 4,
     "tags": [
-      "dare",
-      "touch"
+      "wheel",
+      "props"
     ],
-    "zh": "围绕“大腿外侧”完成一个 45 秒任务：先问同意，再慢慢来。",
-    "en": "Build a 45-second task around 大腿外侧: ask consent first, then go slowly."
+    "zh": "眼罩 2 分钟，只能用声音反馈",
+    "en": "Blindfold 2 minutes; voice feedback only"
   },
   {
-    "id": "d177",
+    "id": "c175",
+    "type": "dare",
+    "level": 4,
+    "tags": [
+      "wheel",
+      "props"
+    ],
+    "zh": "丝巾轻轻限制一只手 60 秒",
+    "en": "Softly restrain one wrist with a scarf for 60s"
+  },
+  {
+    "id": "c176",
+    "type": "dare",
+    "level": 4,
+    "tags": [
+      "wheel",
+      "props"
+    ],
+    "zh": "冰块沿锁骨附近停 10 秒",
+    "en": "Ice near collarbone for 10s"
+  },
+  {
+    "id": "c177",
+    "type": "dare",
+    "level": 4,
+    "tags": [
+      "wheel",
+      "props"
+    ],
+    "zh": "口红在不露脸的位置留下记号",
+    "en": "Lipstick mark somewhere private"
+  },
+  {
+    "id": "c178",
+    "type": "dare",
+    "level": 4,
+    "tags": [
+      "wheel",
+      "props"
+    ],
+    "zh": "镜子前完成一个亲密姿势",
+    "en": "Mirror intimate pose"
+  },
+  {
+    "id": "c179",
+    "type": "dare",
+    "level": 4,
+    "tags": [
+      "wheel",
+      "props"
+    ],
+    "zh": "衬衫/浴袍限定任务 3 分钟",
+    "en": "Shirt/robe-only task for 3 minutes"
+  },
+  {
+    "id": "c180",
+    "type": "dare",
+    "level": 4,
+    "tags": [
+      "wheel",
+      "props"
+    ],
+    "zh": "按摩油从肩颈开始，慢慢往下",
+    "en": "Massage oil from shoulders, slowly lower"
+  },
+  {
+    "id": "c181",
+    "type": "dare",
+    "level": 4,
+    "tags": [
+      "wheel",
+      "props"
+    ],
+    "zh": "纸条写一条命令，抽到就执行",
+    "en": "Write a paper command and draw it"
+  },
+  {
+    "id": "c182",
+    "type": "dare",
+    "level": 4,
+    "tags": [
+      "wheel",
+      "props"
+    ],
+    "zh": "只用一只手完成 60 秒挑逗",
+    "en": "One-hand-only tease for 60s"
+  },
+  {
+    "id": "c183",
+    "type": "dare",
+    "level": 4,
+    "tags": [
+      "wheel",
+      "props"
+    ],
+    "zh": "靠枕换姿势，不能站起来",
+    "en": "Pillow position; no standing up"
+  },
+  {
+    "id": "c184",
+    "type": "dare",
+    "level": 4,
+    "tags": [
+      "wheel",
+      "props"
+    ],
+    "zh": "播放最暧昧的歌，直到副歌结束",
+    "en": "Play the spiciest song until chorus ends"
+  },
+  {
+    "id": "c185",
+    "type": "dare",
+    "level": 4,
+    "tags": [
+      "wheel",
+      "props"
+    ],
+    "zh": "道具结束后问一句：还要吗",
+    "en": "After props, ask: more?"
+  },
+  {
+    "id": "c186",
     "type": "dare",
     "level": 5,
     "tags": [
-      "dare",
-      "touch"
+      "wheel",
+      "dirty"
     ],
-    "zh": "围绕“锁骨附近”完成一个 45 秒任务：先问同意，再慢慢来。",
-    "en": "Build a 45-second task around 锁骨附近: ask consent first, then go slowly."
+    "zh": "说一句你平时不敢说的骚话",
+    "en": "Say one filthy line you usually hide"
   },
   {
-    "id": "d178",
+    "id": "c187",
     "type": "dare",
-    "level": 2,
+    "level": 5,
     "tags": [
-      "dare",
-      "touch"
+      "wheel",
+      "dirty"
     ],
-    "zh": "围绕“嘴角”完成一个 45 秒任务：先问同意，再慢慢来。",
-    "en": "Build a 45-second task around 嘴角: ask consent first, then go slowly."
+    "zh": "亲到 TA 先发出声音",
+    "en": "Kiss until they make a sound"
+  },
+  {
+    "id": "c188",
+    "type": "dare",
+    "level": 5,
+    "tags": [
+      "wheel",
+      "dirty"
+    ],
+    "zh": "让对方选择：更深吻 / 更贴近 / 更听话",
+    "en": "Choose: deeper kiss / closer body / more obedient"
+  },
+  {
+    "id": "c189",
+    "type": "dare",
+    "level": 5,
+    "tags": [
+      "wheel",
+      "dirty"
+    ],
+    "zh": "用最低的声音命令 TA 靠近",
+    "en": "Use your lowest voice to command them closer"
+  },
+  {
+    "id": "c190",
+    "type": "dare",
+    "level": 5,
+    "tags": [
+      "wheel",
+      "dirty"
+    ],
+    "zh": "把 TA 最敏感的反应说出来",
+    "en": "Name the reaction that turns you on"
+  },
+  {
+    "id": "c191",
+    "type": "dare",
+    "level": 5,
+    "tags": [
+      "wheel",
+      "dirty"
+    ],
+    "zh": "一方只能听命令 2 分钟",
+    "en": "One partner obeys for 2 minutes"
+  },
+  {
+    "id": "c192",
+    "type": "dare",
+    "level": 5,
+    "tags": [
+      "wheel",
+      "dirty"
+    ],
+    "zh": "让 TA 说出想被你怎么弄心动",
+    "en": "Ask how they want to be driven wild"
+  },
+  {
+    "id": "c193",
+    "type": "dare",
+    "level": 5,
+    "tags": [
+      "wheel",
+      "dirty"
+    ],
+    "zh": "把手放到双方 Yes 的位置不动 30 秒",
+    "en": "Hold a mutual-Yes spot for 30s"
+  },
+  {
+    "id": "c194",
+    "type": "dare",
+    "level": 5,
+    "tags": [
+      "wheel",
+      "dirty"
+    ],
+    "zh": "今天谁更坏，谁就主导下一轮",
+    "en": "Whoever is naughtier leads next round"
+  },
+  {
+    "id": "c195",
+    "type": "dare",
+    "level": 5,
+    "tags": [
+      "wheel",
+      "dirty"
+    ],
+    "zh": "抽到的人承认一个身体偏好",
+    "en": "Admit one body preference"
+  },
+  {
+    "id": "c196",
+    "type": "dare",
+    "level": 5,
+    "tags": [
+      "wheel",
+      "dirty"
+    ],
+    "zh": "说一句：我想要你更主动",
+    "en": "Say: I want you more主动"
+  },
+  {
+    "id": "c197",
+    "type": "dare",
+    "level": 5,
+    "tags": [
+      "wheel",
+      "dirty"
+    ],
+    "zh": "加码到 5 级，或者罚亲一分钟",
+    "en": "Level 5 next, or one-minute kiss penalty"
+  },
+  {
+    "id": "c198",
+    "type": "aftercare",
+    "level": 1,
+    "tags": [
+      "wheel",
+      "after"
+    ],
+    "zh": "抱抱一分钟，不看手机",
+    "en": "Cuddle one minute, no phones"
+  },
+  {
+    "id": "c199",
+    "type": "aftercare",
+    "level": 1,
+    "tags": [
+      "wheel",
+      "after"
+    ],
+    "zh": "喝水，问一句舒服吗",
+    "en": "Drink water and ask: comfortable?"
+  },
+  {
+    "id": "c200",
+    "type": "aftercare",
+    "level": 1,
+    "tags": [
+      "wheel",
+      "after"
+    ],
+    "zh": "说今晚最喜欢的一个瞬间",
+    "en": "Name the best moment tonight"
+  },
+  {
+    "id": "c201",
+    "type": "aftercare",
+    "level": 1,
+    "tags": [
+      "wheel",
+      "after"
+    ],
+    "zh": "夸 TA 一个具体反应",
+    "en": "Praise one specific reaction"
+  },
+  {
+    "id": "c202",
+    "type": "aftercare",
+    "level": 1,
+    "tags": [
+      "wheel",
+      "after"
+    ],
+    "zh": "说一个下次想继续玩的点",
+    "en": "Say what you want next time"
+  },
+  {
+    "id": "c203",
+    "type": "aftercare",
+    "level": 1,
+    "tags": [
+      "wheel",
+      "after"
+    ],
+    "zh": "确认有没有哪里不舒服",
+    "en": "Check if anything feels off"
+  },
+  {
+    "id": "c204",
+    "type": "aftercare",
+    "level": 1,
+    "tags": [
+      "wheel",
+      "after"
+    ],
+    "zh": "亲额头，把称呼切回日常",
+    "en": "Forehead kiss and switch back to normal names"
+  },
+  {
+    "id": "c205",
+    "type": "aftercare",
+    "level": 1,
+    "tags": [
+      "wheel",
+      "after"
+    ],
+    "zh": "一起整理现场",
+    "en": "Clean up together"
+  },
+  {
+    "id": "c206",
+    "type": "aftercare",
+    "level": 1,
+    "tags": [
+      "wheel",
+      "after"
+    ],
+    "zh": "保存一个愿望，删除不想留的记录",
+    "en": "Save one wish, delete unwanted records"
+  },
+  {
+    "id": "c207",
+    "type": "aftercare",
+    "level": 1,
+    "tags": [
+      "wheel",
+      "after"
+    ],
+    "zh": "如果刚才太猛，降一级再来",
+    "en": "If that was too much, lower one level"
+  },
+  {
+    "id": "c208",
+    "type": "aftercare",
+    "level": 1,
+    "tags": [
+      "wheel",
+      "after"
+    ],
+    "zh": "安静躺 2 分钟",
+    "en": "Lie quietly for 2 minutes"
+  },
+  {
+    "id": "c209",
+    "type": "aftercare",
+    "level": 1,
+    "tags": [
+      "wheel",
+      "after"
+    ],
+    "zh": "今晚到这里，抱着结束",
+    "en": "End here, held close"
   }
 ];
 
 export const LEVEL_COPY = {
-  "zh": [
-    "",
-    "暖场",
-    "暧昧",
-    "升温",
-    "热辣",
-    "成人"
-  ],
-  "en": [
-    "",
-    "soft",
-    "flirty",
-    "warm",
-    "hot",
-    "adult"
-  ]
+  "zh": {
+    "1": "温柔",
+    "2": "暧昧",
+    "3": "升温",
+    "4": "放肆",
+    "5": "成人热辣"
+  },
+  "en": {
+    "1": "Soft",
+    "2": "Flirty",
+    "3": "Heated",
+    "4": "Bold",
+    "5": "Adult hot"
+  }
 };
+
